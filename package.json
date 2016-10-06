@@ -80,6 +80,7 @@
   },
   "optionalDependencies": {},
   "devDependencies": {
+    "clean-css": "^3.4.20",
     "gh-contrib-list": "0.1.2",
     "git-wrapper": "0.1.1",
     "grunt": "1.0.1",
@@ -117,7 +118,8 @@
     "slack-node": "^0.1.8",
     "sqlite3": "^3.1.4",
     "supertest": "1.2.0",
-    "tmp": "0.0.29"
+    "tmp": "0.0.29",
+    "vinyl-map": "^1.0.1"
   },
   "greenkeeper": {
     "ignore": [
