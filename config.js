@@ -27,6 +27,29 @@ config = {
         }
     },
 
+    staging: {
+        url: 'https://prendho-dev.herokuapp.com',
+        mail: {
+            transport: 'SMTP',
+            options: {
+                service: 'sendgrid',
+                auth: {
+                    user: process.env.SMTP_LOGIN,
+                    pass: process.env.SMTP_PASSWORD
+                }
+            }
+        },
+        database: {
+            client: "postgres",
+            connection: process.env.DATABASE_URL,
+            debug: false
+        },
+        server: {
+            host: '0.0.0.0',
+            port: process.env.PORT
+        }
+    },
+
     // ### Development **(default)**
     development: {
         // The url to use when providing links to the site, E.g. in RSS and email.
