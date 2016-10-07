@@ -2,10 +2,11 @@
 {{! The tag above means - insert everything in this file into the {body} of the default.hbs template }}
 
 {{! The main content area on the homepage }}
-<main id="content" class="content" role="main">
+<main role="main">
   {{! The tag below includes the post loop - partials/loop.hbs }}
   <div class="header">
     <h1>header</h1>
+    {{> "navbar"}}
   </div>
   <div class="intro">
     <h2>intro</h2>
