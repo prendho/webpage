@@ -6,6 +6,7 @@
 
   ResponsiveCarousel.prototype.initialize = function () {
     this.$el.slick({
+      autoplay: true,
       slidesToShow: 3,
       responsive: [
         {
