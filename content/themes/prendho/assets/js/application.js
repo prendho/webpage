@@ -1,2 +1,2 @@
-$(document).ready(function(){$("#header-carousel .items-wrapper").slick({appendArrows:".carousel-controls"})});
+$(document).ready(function(){$("#header-carousel .items-wrapper").slick({appendArrows:".carousel-controls",prevArrow:'<span class="glyphicon glyphicon-menu-left"></span><span class="separator"></span>',nextArrow:'<span class="glyphicon glyphicon-menu-right"></span>'})});
 !function(){var i=function(i){this.$el=i,this.initialize()};i.prototype.initialize=function(){this.$el.slick({autoplay:!0,slidesToShow:3,responsive:[{breakpoint:768,settings:{slidesToShow:1}}]})},$(document).ready(function(){$(".responsive-carousel").each(function(){new i($(this))})})}();

@@ -1,24 +1,30 @@
-.navbar-default
-  background-color: transparent
-  border: 0
+.header
+  position: relative
+  .navbar-default
+    background-color: transparent
+    border: 0
+    margin-top: 20px
+    position: absolute
+    width: 100%
+    z-index: 1
 
-  .navbar-header, .navbar-collapse
-    background-color: $navbar-default-bg
-  .navbar-collapse
-    float: right
-    &.in
-      display: inline-block
+    .navbar-header, .navbar-collapse
+      background-color: $navbar-default-bg
+    .navbar-collapse
+      float: right
+      &.in
+        display: inline-block
 
-  .navbar-form
-    @media (min-width: $screen-sm-min)
-      display: inline-block
+    .navbar-form
+      @media (min-width: $screen-sm-min)
+        display: inline-block
 
-  .navbar-header
-    .navbar-brand
-      width: 180px
-      background-size: contain
-      background-repeat: no-repeat
-      background-position: 50%
-      & > .blog-title
-        // hide title
-        display: none
+    .navbar-header
+      .navbar-brand
+        width: 180px
+        background-size: contain
+        background-repeat: no-repeat
+        background-position: 50%
+        & > .blog-title
+          // hide title
+          display: none

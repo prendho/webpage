@@ -1,20 +1,38 @@
-$headerCarouselBottomPadding: 20px
+$headerCarouselBottomPadding: 10px
 
 #header-carousel
   position: relative
   .item
     position: relative
+    .img-responsive
+      min-height: 350px
+      background-size: cover
+      background-repeat: no-repeat
+      background-position: 50%
+
     .caption
       position: absolute
-      bottom: $headerCarouselBottomPadding
+      bottom: $headerCarouselBottomPadding + 42px
       background-color: rgba(0,0,0,.5)
       color: white
+      max-width: 80%
+      margin: auto
+      left: 0
+      right: 0
+      padding: 5px 10px
+      max-height: 140px
+      overflow: auto
 
   .carousel-controls
     display: inline-block
     position: absolute
     bottom: $headerCarouselBottomPadding
-    .slick-next
-      right: -20px
-    .slick-prev
-      left: -20px
+    height: 40px
+    width: 40px
+    left: 0
+    right: 0
+    margin: auto
+    border-radius: 50%
+    background-color: blue
+    .glyphicon
+      color: white
