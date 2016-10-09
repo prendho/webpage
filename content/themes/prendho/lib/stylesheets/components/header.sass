@@ -9,10 +9,14 @@
     @media (max-width: $screen-sm-min)
       background-color: transparent
 
-    .navbar-header, .navbar-collapse
-      background-color: $navbar-default-bg
+    .container-fluid
+      @media (min-width: $screen-sm-min)
+        background-color: rgba($navbar-default-bg, .7)
+
     .navbar-collapse
       float: right
+      @media (max-width: $screen-xs-max)
+        background-color: rgba($navbar-default-bg, .9)
       &.in
         display: inline-block
 
@@ -21,8 +25,14 @@
         display: inline-block
 
     .navbar-header
+      @media (max-width: $screen-xs-max)
+        background-color: rgba($navbar-default-bg, .7)
       .navbar-toggle
         border: 0
+        .icon-bar
+          background-color: white
+        &:hover
+          background-color: transparent
       .navbar-brand
         width: 180px
         background-size: contain
