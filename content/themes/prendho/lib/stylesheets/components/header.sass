@@ -15,12 +15,16 @@
 
     .navbar-collapse
       float: right
+      border: 0
       @media (max-width: $screen-xs-max)
+        box-shadow: -1px 1px 3px rgba(0,0,0,.6)
         background-color: rgba($navbar-default-bg, .9)
       &.in
         display: inline-block
 
     .navbar-form
+      border: 0
+      box-shadow: none
       @media (min-width: $screen-sm-min)
         display: inline-block
 
