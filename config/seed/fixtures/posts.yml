@@ -42,6 +42,30 @@
   created_at: <%= Time.now %>
   updated_at: <%= Time.now %>
   published_at: <%= Time.now %>
+  page: false
+  featured: false
+  language: en_US
+  status: published
+  slug: emprendimientos-carousel
+  title: Nuestros emprendimientos
+  markdown: <%= fake_sentence %>
+
+- uuid: <%= uuid %>
+  created_at: <%= Time.now %>
+  updated_at: <%= Time.now %>
+  published_at: <%= Time.now %>
+  page: false
+  featured: false
+  language: en_US
+  status: published
+  slug: intro-post
+  title: Emprende con nosotros
+  markdown: "<%= lipsum %>"
+
+- uuid: <%= uuid %>
+  created_at: <%= Time.now %>
+  updated_at: <%= Time.now %>
+  published_at: <%= Time.now %>
   page: true
   featured: false
   language: en_US

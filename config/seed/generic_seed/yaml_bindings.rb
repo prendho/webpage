@@ -18,6 +18,10 @@ class Seed
         Faker::Hipster.paragraph(5, true, 5)
       end
 
+      def lipsum_small
+        Faker::Hipster.paragraph(2, true, 2)
+      end
+
       # def lipsum_html
       #   Faker::Lorem.paragraph(5, true, 5)
       # end
