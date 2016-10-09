@@ -65,18 +65,29 @@
     </div>
   </div>
   <div class="contact-form">
-    <h2>contactos</h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-    <form>
-      <textarea name="mensaje" placeholder="mensaje" class="form-control"></textarea>
-      <input type="text" name="nombre" placeholder="nombre" class="form-control">
-      <input type="email" name="email" placeholder="e-mail" class="form-control">
-      <input type="submit" value="enviar" class="btn btn-default">
-    </form>
+      <div class="col-sm-offset-2 col-sm-8 col-sm-offset-2">
+          <div class="panel panel-default">
+              <div class="panel-body">
+                  <h2>Contactos</h2>
+                  <p class="text-left">Centro de Emprendimiento prendho <br>
+                    Universidad Técnica Particular de Loja <br>
+                    Cdla. San Cayetano s/n (UTPL)
+                  </p>
+                  <p class="text-left">Telf. (593-7) 258 86 68</p>
+                  <p class="text-left">Deja un comentario</p>
+                  <form>
+                    <textarea name="mensaje" placeholder="mensaje" class="form-control" required></textarea>
+                    <input type="text" name="nombre" placeholder="nombre" class="form-control" required>
+                    <input type="email" name="email" placeholder="e-mail" class="form-control" required>
+                    <p class="text-right"><input type="submit" value="enviar" class="btn btn-primary"></p>
+                  </form>
+              </div>
+            </div>
+      </div>
   </div>
   <div class="footer">
-    {{navigation}}
+      <div class="col-sm-12">
+        {{navigation}}
+      </div>
   </div>
 </main>
