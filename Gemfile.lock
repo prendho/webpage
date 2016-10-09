@@ -34,7 +34,7 @@ PLATFORMS
 DEPENDENCIES
   activerecord (~> 4.2)
   colorize (~> 0.8)
-  faker
+  faker (~> 1.6)
   pg
   sqlite3
 
