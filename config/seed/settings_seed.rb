@@ -3,16 +3,13 @@ require "./config/seed/generic_seed"
 class Seed
   class SettingsSeed < GenericSeed
     DEFAULT_NAVIGATION = [
-      { url: '/servicios/', label: 'Servicios' },
-      { url: '/equipo/',    label: 'Equipo' },
-      { url: '/tag/blog/',  label: 'Blog' },
-      { url: '/aliados/',   label: 'Aliados'}
+      { url: '/coworking/', label: 'Coworking' },
     ]
     DEFAULT_SETTINGS = [
       { key: "activeTheme", value: "prendho" },
       { key: "labs",        value: '{"publicAPI":true}' },
       { key: "logo",        value: '/default/prendho_logo_header.png' },
-      # { key: "navigation",  value: DEFAULT_NAVIGATION.to_json }
+      { key: "navigation",  value: DEFAULT_NAVIGATION.to_json }
     ]
 
     def self.seeds

@@ -37,3 +37,17 @@
   title: Carrusel principal placeholder 2
   markdown: <%= fake_sentence %>
   image: /default/The-Hive.jpg
+
+- uuid: <%= uuid %>
+  created_at: <%= Time.now %>
+  updated_at: <%= Time.now %>
+  published_at: <%= Time.now %>
+  page: true
+  featured: false
+  language: en_US
+  status: published
+  slug: coworking
+  title: Coworking
+  markdown: |
+    Es una forma de trabajo que permite a emprendedores compartir un mismo espacio de trabajo para desarrollar sus proyectos profesionales de manera independiente, a la vez que fomentan proyectos conjuntos.
+    Contamos con 48 puestos disponibles.

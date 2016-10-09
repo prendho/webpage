@@ -9,12 +9,13 @@ class Seed
     private
 
     def attributes_for_create
+      html = "<p>#{record.markdown.split("\n").join("</p><p>")}</p>"
       attributes.merge(
         author_id: first_user.id,
         created_by: first_user.id,
         updated_by: first_user.id,
         published_by: first_user.id,
-        html: "<p>#{record.markdown}</p>"
+        html: html
       )
     end
   end
