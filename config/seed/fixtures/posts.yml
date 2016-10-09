@@ -1,1 +1,39 @@
 ---
+- uuid: <%= uuid %>
+  created_at: <%= Time.now %>
+  updated_at: <%= Time.now %>
+  published_at: <%= Time.now %>
+  page: false
+  featured: false
+  language: en_US
+  status: published
+  slug: carousel-main-impulsadora
+  title: Impulsadora de empresas y emprendimientos
+  markdown: 'Es una impulsadora de empresas y emprendimientos, generadora de conocimiento, innovación y desarrollo'
+  image: /default/coworking-930x563.jpg
+
+- uuid: <%= uuid %>
+  created_at: <%= Time.now %>
+  updated_at: <%= Time.now %>
+  published_at: <%= Time.now %>
+  page: false
+  featured: false
+  language: en_US
+  status: published
+  slug: carousel-main-placeholder-1
+  title: Carrusel principal placeholder 1
+  markdown: <%= fake_sentence %>
+  image: /default/e969513037fbcc3e068a0c231c43132ca1aa1ebe.jpeg
+
+- uuid: <%= uuid %>
+  created_at: <%= Time.now %>
+  updated_at: <%= Time.now %>
+  published_at: <%= Time.now %>
+  page: false
+  featured: false
+  language: en_US
+  status: published
+  slug: carousel-main-placeholder-2
+  title: Carrusel principal placeholder 2
+  markdown: <%= fake_sentence %>
+  image: /default/The-Hive.jpg

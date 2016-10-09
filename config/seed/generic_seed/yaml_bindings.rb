@@ -15,15 +15,19 @@ class Seed
       end
 
       def lipsum
-        Faker::Lorem.paragraph(5, true, 5)
+        Faker::Hipster.paragraph(5, true, 5)
       end
 
-      def lipsum_html
-        Faker::Lorem.paragraph(5, true, 5)
-      end
+      # def lipsum_html
+      #   Faker::Lorem.paragraph(5, true, 5)
+      # end
+      #
+      # def lipsum_small
+      #   Faker::Lorem.sentence
+      # end
 
-      def lipsum_small
-        Faker::Lorem.sentence
+      def fake_sentence
+        Faker::Hipster.sentence
       end
     end
   end

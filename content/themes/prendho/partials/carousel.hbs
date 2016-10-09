@@ -1,30 +1,14 @@
 <!-- TODO: update id if to be reused -->
 <div id="header-carousel">
   <div class="items-wrapper">
-    <div class="item">
-      <div style="background-image: url('http://placehold.it/700x420?text=item+1')" class="img-responsive"></div>
-      <div class="caption">
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-        </p>
-      </div>
-    </div>
-    <div class="item">
-      <div style="background-image: url('http://placehold.it/700x420?text=item+2')" class="img-responsive"></div>
-      <div class="caption">
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-        </p>
-      </div>
-    </div>
-    <div class="item">
-      <div style="background-image: url('http://placehold.it/700x420?text=item+3')" class="img-responsive"></div>
-      <div class="caption">
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-        </p>
-      </div>
-    </div>
+    {{#get "posts" filter="tag:carousel-main" as |items|}}
+      {{#foreach items}}
+        <div class="item">
+          <div style="background-image: url('{{image}}')" class="img-responsive"></div>
+          <div class="caption">{{content}}</div>
+        </div>
+      {{/foreach}}
+    {{/get}}
   </div>
   <div class="carousel-controls"></div>
 </div>
