@@ -5,18 +5,20 @@
   };
 
   ResponsiveCarousel.prototype.initialize = function () {
-    this.$el.slick({
-      autoplay: true,
-      slidesToShow: 3,
-      responsive: [
-        {
-          breakpoint: 768,
-          settings: {
-            slidesToShow: 1
+    this.$el.slick(
+      $.extend({}, window.prendhoHelpers.defaultSlickOptions, {
+        autoplay: true,
+        slidesToShow: 3,
+        responsive: [
+          {
+            breakpoint: 768,
+            settings: {
+              slidesToShow: 1
+            }
           }
-        }
-      ]
-    });
+        ]
+      })
+    );
   };
 
   $(document).ready(function () {
