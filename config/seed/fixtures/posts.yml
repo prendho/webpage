@@ -88,3 +88,68 @@
   title: Conéctate al aire
   markdown: <%= fake_sentence %>
   image: /default/logo_conectate_color.png
+
+- uuid: <%= uuid %>
+  created_at: <%= Time.now %>
+  updated_at: <%= Time.now %>
+  published_at: <%= Time.now %>
+  page: false
+  featured: false
+  language: en_US
+  status: published
+  slug: aei
+  title: AEI
+  markdown: <%= fake_sentence %>
+  image: /default/logo_AEI.png
+
+- uuid: <%= uuid %>
+  created_at: <%= Time.now %>
+  updated_at: <%= Time.now %>
+  published_at: <%= Time.now %>
+  page: false
+  featured: false
+  language: en_US
+  status: published
+  slug: fedes
+  title: fedes
+  markdown: <%= fake_sentence %>
+  image: /default/logo_fedes.png
+
+- uuid: <%= uuid %>
+  created_at: <%= Time.now %>
+  updated_at: <%= Time.now %>
+  published_at: <%= Time.now %>
+  page: false
+  featured: false
+  language: en_US
+  status: published
+  slug: noggalito
+  title: noggalito
+  markdown: <%= fake_sentence %>
+  image: /default/logo_noggalito_color.png
+
+- uuid: <%= uuid %>
+  created_at: <%= Time.now %>
+  updated_at: <%= Time.now %>
+  published_at: <%= Time.now %>
+  page: false
+  featured: false
+  language: en_US
+  status: published
+  slug: soyard
+  title: soyard
+  markdown: <%= fake_sentence %>
+  image: /default/logo_soyard_color.png
+
+- uuid: <%= uuid %>
+  created_at: <%= Time.now %>
+  updated_at: <%= Time.now %>
+  published_at: <%= Time.now %>
+  page: false
+  featured: false
+  language: en_US
+  status: published
+  slug: utpl
+  title: utpl
+  markdown: <%= fake_sentence %>
+  image: /default/logo_utpl.png
