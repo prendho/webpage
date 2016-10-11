@@ -1,13 +1,17 @@
 .responsive-carousel
   .item
+    padding: 10px
+    @media (min-width: $screen-sm-min)
+      padding-left: 30px
+      padding-right: 30px
     .img-responsive
-      height: 150px
+      height: 130px
       background-repeat: no-repeat
       background-size: contain
       background-position: 50%
   .glyphicon
     position: absolute
-    top: 90px
+    top: 70px
     &::before
       font-size: 22px
   .glyphicon-menu-left
