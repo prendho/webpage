@@ -15,38 +15,17 @@
   {{/get}}
   <div class="responsive-carousel">
     {{#get "posts" filter="tag:nuestros-emprendimientos" as |items|}}
-      {{#foreach items}}
-        <div class="item">
-          <div class="img-responsive"
-               style="background-image: url('{{image}}');">
-          </div>
-        </div>
-      {{/foreach}}
+      {{> "carousel-items" items=items}}
     {{/get}}
   </div>
 </div>
-<div class="post-gallery common-gallery-post">
-  <h2>nuestros</h2>
-  <h3>aliados</h3>
-  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+<div class="post-gallery col-xs-8 col-xs-offset-2 col-sm-10 col-sm-offset-1 col-md-offset-2 col-md-8">
+  {{#get "posts" filter="slug:aliados-carousel" as |item|}}
+    {{> "common-gallery-post" item=item}}
+  {{/get}}
   <div class="responsive-carousel">
-    <div class="item">
-      <img src="http://placehold.it/300x160?text=img-7" alt="" />
-    </div>
-    <div class="item">
-      <img src="http://placehold.it/300x160?text=img-8" alt="" />
-    </div>
-    <div class="item">
-      <img src="http://placehold.it/300x160?text=img-9" alt="" />
-    </div>
-    <div class="item">
-      <img src="http://placehold.it/300x160?text=img-10" alt="" />
-    </div>
-    <div class="item">
-      <img src="http://placehold.it/300x160?text=img-11" alt="" />
-    </div>
-    <div class="item">
-      <img src="http://placehold.it/300x160?text=img-12" alt="" />
-    </div>
+    {{#get "posts" filter="tag:nuestros-aliados" as |items|}}
+      {{> "carousel-items" items=items}}
+    {{/get}}
   </div>
 </div>

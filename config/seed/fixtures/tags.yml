@@ -8,3 +8,8 @@
   slug: nuestros-emprendimientos
   description: Carrusel de nuestros emprendimientos en página principal
   uuid: <%= uuid %>
+
+- name: Nuestros Aliados
+  slug: nuestros-aliados
+  description: Carrusel de nuestros aliados en página principal
+  uuid: <%= uuid %>
