@@ -14,9 +14,14 @@
     {{> "common-gallery-post" item=item}}
   {{/get}}
   <div class="responsive-carousel">
-    <div class="item">
-      <img src="http://placehold.it/300x160?text=img-1" alt="" />
-    </div>
+    {{#get "posts" filter="tag:nuestros-emprendimientos" as |items|}}
+      {{#foreach items}}
+        <div class="item">
+          <img src="{{image}}" alt="" />
+        </div>
+      {{/foreach}}
+    {{/get}}
+
     <div class="item">
       <img src="http://placehold.it/300x160?text=img-2" alt="" />
     </div>

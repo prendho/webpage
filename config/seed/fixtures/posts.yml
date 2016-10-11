@@ -75,3 +75,16 @@
   markdown: |
     Es una forma de trabajo que permite a emprendedores compartir un mismo espacio de trabajo para desarrollar sus proyectos profesionales de manera independiente, a la vez que fomentan proyectos conjuntos.
     Contamos con 48 puestos disponibles.
+
+- uuid: <%= uuid %>
+  created_at: <%= Time.now %>
+  updated_at: <%= Time.now %>
+  published_at: <%= Time.now %>
+  page: false
+  featured: false
+  language: en_US
+  status: published
+  slug: conectate-al-aire
+  title: Conéctate al aire
+  markdown: <%= fake_sentence %>
+  image: /default/logo_conectate_color.png

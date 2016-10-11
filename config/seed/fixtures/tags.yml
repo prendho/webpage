@@ -3,3 +3,8 @@
   slug: carousel-main
   description: Imágenes del carrusel principal
   uuid: <%= uuid %>
+
+- name: Nuestros Emprendimientos
+  slug: nuestros-emprendimientos
+  description: Carrusel de nuestros emprendimientos en página principal
+  uuid: <%= uuid %>
