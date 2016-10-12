@@ -2,30 +2,31 @@
 {{! The tag above means - insert everything in this file into the {body} of the default.hbs template }}
 
 {{! The main content area on the homepage }}
-
-<div class="intro col-xs-8 col-xs-offset-2 col-sm-10 col-sm-offset-1 col-md-offset-2 col-md-8">
-  {{#get "posts" filter="slug:intro-post" as |item|}}
-    {{> "common-gallery-post" item=item}}
-  {{/get}}
-  <a href="#" class="btn btn-lg btn-primary">Postula</a>
-</div>
-<div class="post-gallery col-xs-8 col-xs-offset-2 col-sm-10 col-sm-offset-1 col-md-offset-2 col-md-8">
-  {{#get "posts" filter="slug:emprendimientos-carousel" as |item|}}
-    {{> "common-gallery-post" item=item}}
-  {{/get}}
-  <div class="responsive-carousel">
-    {{#get "posts" filter="tag:nuestros-emprendimientos" as |items|}}
-      {{> "carousel-items" items=items}}
+<div class="row">
+  <div class="intro col-xs-8 col-xs-offset-2 col-sm-10 col-sm-offset-1 col-md-offset-2 col-md-8">
+    {{#get "posts" filter="slug:intro-post" as |item|}}
+      {{> "common-gallery-post" item=item}}
     {{/get}}
+    <a href="#" class="btn btn-lg btn-primary">Postula</a>
   </div>
-</div>
-<div class="post-gallery col-xs-8 col-xs-offset-2 col-sm-10 col-sm-offset-1 col-md-offset-2 col-md-8">
-  {{#get "posts" filter="slug:aliados-carousel" as |item|}}
-    {{> "common-gallery-post" item=item}}
-  {{/get}}
-  <div class="responsive-carousel">
-    {{#get "posts" filter="tag:nuestros-aliados" as |items|}}
-      {{> "carousel-items" items=items}}
+  <div class="post-gallery col-xs-8 col-xs-offset-2 col-sm-10 col-sm-offset-1 col-md-offset-2 col-md-8">
+    {{#get "posts" filter="slug:emprendimientos-carousel" as |item|}}
+      {{> "common-gallery-post" item=item}}
     {{/get}}
+    <div class="responsive-carousel">
+      {{#get "posts" filter="tag:nuestros-emprendimientos" as |items|}}
+        {{> "carousel-items" items=items}}
+      {{/get}}
+    </div>
+  </div>
+  <div class="post-gallery col-xs-8 col-xs-offset-2 col-sm-10 col-sm-offset-1 col-md-offset-2 col-md-8">
+    {{#get "posts" filter="slug:aliados-carousel" as |item|}}
+      {{> "common-gallery-post" item=item}}
+    {{/get}}
+    <div class="responsive-carousel">
+      {{#get "posts" filter="tag:nuestros-aliados" as |items|}}
+        {{> "carousel-items" items=items}}
+      {{/get}}
+    </div>
   </div>
 </div>

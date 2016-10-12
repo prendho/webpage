@@ -1,18 +1,23 @@
-<div class="footer-contact-form col-xs-8 col-xs-offset-2 col-sm-offset-1 col-sm-10 col-md-offset-2 col-md-8">
-  {{#get "posts" filter="slug:contactos" as |post|}}
-    {{#post}}
-      <h2>{{title}}</h2>
-      <div class="text-left">{{content}}</div>
-    {{/post}}
-  {{/get}}
+{{#get "posts" filter="slug:contactos" as |post|}}
+  {{#post}}
+    <div class="footer-form-wrapper"
+         style="background-image: url('{{image}}');">
+      <div class="footer-form-wrapper--mask row">
+        <div class="footer-contact-form col-xs-8 col-xs-offset-2 col-sm-offset-1 col-sm-10 col-md-offset-2 col-md-8">
+          <h2>{{title}}</h2>
+          <div class="text-left">{{content}}</div>
 
-  <p class="text-left">Deja un comentario</p>
-  <form>
-    <textarea name="mensaje" placeholder="mensaje" class="form-control" required></textarea>
-    <input type="text" name="nombre" placeholder="nombre" class="form-control" required>
-    <input type="email" name="email" placeholder="e-mail" class="form-control" required>
-    <div class="text-right">
-      <input type="submit" value="enviar" class="btn btn-primary">
+          <p class="text-left">Deja un comentario</p>
+          <form>
+            <textarea name="mensaje" placeholder="mensaje" class="form-control" required></textarea>
+            <input type="text" name="nombre" placeholder="nombre" class="form-control" required>
+            <input type="email" name="email" placeholder="e-mail" class="form-control" required>
+            <div class="text-right">
+              <input type="submit" value="enviar" class="btn btn-primary">
+            </div>
+          </form>
+        </div>
+      </div>
     </div>
-  </form>
-</div>
+  {{/post}}
+{{/get}}
