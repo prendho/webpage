@@ -195,3 +195,4 @@
   status: published
   slug: blog
   title: Blog
+  markdown: <%= fake_sentence %>
