@@ -1,17 +1,18 @@
-<fieldset class="scheduler-border">
-  <legend class="scheduler-border prueba"><h3>Recent Post</h3></legend>
-  <div class="row">
-    <div class="col-xs-6 col-md-3">
-      <a href="#" class="thumbnail">
-        <img src="{{asset "static/icono_face.png"}}" width="100%">
-      </a>
-    </div>
-    <div class="col-xs-6 col-md-9 text-justify">
-      <a href="#">Lorem Ipsum is simply dummy text</a>
-      <p class="text-justify">Es una forma de trabajo que permite a emprendedores 
-        compartir un mismo espacio de trabajo para desarrollar sus proyectos profesionales 
-        de manera independiente, a la vez que fomentan proyectos conjuntos.
-      </p>
-    </div>
-  </div>
+<fieldset class="border">
+  <legend class="border"><h3>Recent Post</h3></legend>
+  {{#get "posts" limit="3"}}
+    {{#foreach posts}}
+      <div class="row">
+        <div class="col-xs-6 col-sm-3">
+          <a href="{{image}}" class="thumbnail">
+            <img src="{{image}}" width="100%">
+          </a>
+        </div>
+        <div class="col-xs-6 col-sm-9 text-justify">
+          <a href="{{url}}">"{{title}}"</a>
+          <p>{{content characters="150"}}</p>
+        </div>
+      </div>
+    {{/foreach}}
+  {{/get}}
 </fieldset>
