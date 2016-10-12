@@ -96,6 +96,25 @@
   featured: false
   language: en_US
   status: published
+  slug: contactos
+  title: Contactos
+  markdown: |
+    Centro de Emprendimiento prendho
+    Universidad Técnica Particular de Loja
+    Cdla. San Cayetano s/n (UTPL)
+
+    Telf. (593-7) 258 86 68
+
+    Loja - Ecuador
+
+- uuid: <%= uuid %>
+  created_at: <%= Time.now %>
+  updated_at: <%= Time.now %>
+  published_at: <%= Time.now %>
+  page: false
+  featured: false
+  language: en_US
+  status: published
   slug: conectate-al-aire
   title: Conéctate al aire
   markdown: <%= fake_sentence %>
