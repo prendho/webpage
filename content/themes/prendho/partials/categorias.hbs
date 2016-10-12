@@ -1,5 +1,5 @@
-<fieldset class="border">
-  <legend class="border"><h3>Categorías</h3></legend>
+<fieldset>
+  <legend><h3>Categorías</h3></legend>
   <ul class="text-left">
     {{#get "posts" order="asc" filter="tag:blog-category" as |item|}}
       {{#foreach item}}
@@ -12,6 +12,6 @@
           <a href="/tag/{{slug}}/" class="text-uppercase">{{title}}</a>
         </li>
       {{/foreach}}
-    {{/get}} 
+    {{/get}}
   </ul>
 </fieldset>
