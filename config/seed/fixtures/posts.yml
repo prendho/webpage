@@ -92,7 +92,6 @@
   created_at: <%= Time.now %>
   updated_at: <%= Time.now %>
   published_at: <%= Time.now %>
-<<<<<<< 5df03c21107296c8749d67049c6475c322902b1c
   page: false
   featured: false
   language: en_US
