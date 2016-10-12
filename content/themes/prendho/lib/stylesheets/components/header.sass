@@ -6,8 +6,7 @@
     position: absolute
     width: 100%
     z-index: 1
-    @media (max-width: $screen-sm-min)
-      background-color: transparent
+    background-color: transparent
 
     .container-fluid
       @media (min-width: $screen-sm-min)
@@ -27,6 +26,24 @@
       box-shadow: none
       @media (min-width: $screen-sm-min)
         display: inline-block
+      .form-group
+        position: relative
+        .glyphicon
+          color: white
+          position: absolute
+          left: 10px
+          top: 10px
+        input
+          border: 1px solid white
+          border-radius: 10px
+          background-color: $navbar-default-bg
+          padding-left: 30px
+          padding-top: 2px
+          padding-bottom: 2px
+          color: white
+          font-size: 12px
+          @media (min-width: $screen-sm-min) and (max-width: $screen-sm-max)
+            width: 140px
 
     .navbar-header
       @media (max-width: $screen-xs-max)
@@ -45,3 +62,20 @@
         & > .blog-title
           // hide title
           display: none
+    .navbar-right
+      ul.nav
+        text-align: left
+        li
+          margin: 5px 10px
+          border-radius: 3px
+          @media (min-width: $screen-sm-min)
+            margin: 10px 0
+          &.nav-current
+            background-color: $navbar-default-bg
+        a
+          color: white
+          padding: 8px 15px
+          @media (min-width: $screen-sm-min)
+            padding: 5px 15px
+          &:hover, &:focus, &:active
+            background-color: $navbar-default-bg
