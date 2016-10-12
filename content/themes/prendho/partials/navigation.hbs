@@ -1,31 +1,11 @@
-<div class="container text-left">
-  <h2>
-    prend<a href="" class="link">h</a>o
-    <img class="cursor-pointer" src="{{asset "static/icono_face.png"}}"
-    class="img-rounded"
-    alt="bordes redondeados">
-    <img class="cursor-pointer" src="{{asset "static/icono_rss.png"}}"
-    class="img-rounded"
-    alt="bordes redondeados">
-  </h2>
-  <ul class="footer-links">
-    <li><a href="#">Inicio</a></li>
-    <li><a href="#">Contactos</a></li>
-    <li><a href="#">Nosotros</a></li>
-    <li><a href="#">Servicios</a></li>
-    <li><a href="#">Emprendimientos</a></li>
-    <li><a href="#">Blog</a></li>
-    <li><a href="#">Recursos</a></li>
+<div class="navigation">
+  <ul class="nav">
+    <!-- Loop through the navigation items -->
+    {{#foreach navigation}}
+      <li class="nav-{{slug}}{{#if current}} nav-current{{/if}}">
+        <a href="{{url absolute="true"}}">{{label}}</a>
+      </li>
+    {{/foreach}}
+    <!-- End the loop -->
   </ul>
-  <p>
-    <a href="#" class="link">prendho</a>
-    está distribuido bajo una
-    <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/" class="link">Licencia Creative Commons Atribución-CompartirIgual 4.0 Internacional</a>
-  </p>
-  <p>
-    <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">
-      <img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png" />
-    </a>
-  </p>
-  <p class="text-right">powered by noggalito</p>
 </div>

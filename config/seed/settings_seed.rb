@@ -3,6 +3,7 @@ require "./config/seed/generic_seed"
 class Seed
   class SettingsSeed < GenericSeed
     DEFAULT_NAVIGATION = [
+      { url: '/',           label: 'Inicio' },
       { url: '/coworking/', label: 'Coworking' },
     ]
     DEFAULT_SETTINGS = [
