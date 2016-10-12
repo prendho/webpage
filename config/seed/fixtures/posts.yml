@@ -186,11 +186,155 @@
   markdown: <%= fake_sentence %>
   image: /default/logo_utpl.png
 
+#Post
 - uuid: <%= uuid %>
   created_at: <%= Time.now %>
   updated_at: <%= Time.now %>
   published_at: <%= Time.now %>
-  page: true
+  page: false
+  slug: post-1
+  title: <%= lipsum_small %>
+  featured: false
+  language: en_US
+  status: published
+  image: /default/e969513037fbcc3e068a0c231c43132ca1aa1ebe.jpeg
+  markdown: <%= lipsum %>
+
+- uuid: <%= uuid %>
+  created_at: <%= Time.now %>
+  updated_at: <%= Time.now %>
+  published_at: <%= Time.now %>
+  page: false
+  slug: post-2
+  title: <%= lipsum_small %>
+  featured: false
+  language: en_US
+  status: published
+  image: /default/e969513037fbcc3e068a0c231c43132ca1aa1ebe.jpeg
+  markdown: <%= lipsum %>
+
+#Blog: Post
+- uuid: <%= uuid %>
+  created_at: <%= Time.now %>
+  updated_at: <%= Time.now %>
+  published_at: <%= Time.now %>
+  page: false
+  slug: blog-post-1
+  title: <%= lipsum_small %>
+  featured: false
+  language: en_US
+  status: published
+  image: /default/e969513037fbcc3e068a0c231c43132ca1aa1ebe.jpeg
+  markdown: <%= lipsum %>
+
+- uuid: <%= uuid %>
+  created_at: <%= Time.now %>
+  updated_at: <%= Time.now %>
+  published_at: <%= Time.now %>
+  page: false
+  slug: blog-post-2
+  title: <%= lipsum_small %>
+  featured: false
+  language: en_US
+  status: published
+  image: /default/e969513037fbcc3e068a0c231c43132ca1aa1ebe.jpeg
+  markdown: <%= lipsum %>
+
+- uuid: <%= uuid %>
+  created_at: <%= Time.now %>
+  updated_at: <%= Time.now %>
+  published_at: <%= Time.now %>
+  page: false
+  slug: blog-post-3
+  title: <%= lipsum_small %>
+  featured: false
+  language: en_US
+  status: published
+  image: /default/e969513037fbcc3e068a0c231c43132ca1aa1ebe.jpeg
+  markdown: <%= lipsum %>
+
+- uuid: <%= uuid %>
+  created_at: <%= Time.now %>
+  updated_at: <%= Time.now %>
+  published_at: <%= Time.now %>
+  page: false
+  slug: blog-post-4
+  title: <%= lipsum_small %>
+  featured: false
+  language: en_US
+  status: published
+  image: /default/e969513037fbcc3e068a0c231c43132ca1aa1ebe.jpeg
+  markdown: <%= lipsum %>
+
+- uuid: <%= uuid %>
+  created_at: <%= Time.now %>
+  updated_at: <%= Time.now %>
+  published_at: <%= Time.now %>
+  page: false
+  slug: blog-post-5
+  title: <%= lipsum_small %>
+  featured: false
+  language: en_US
+  status: published
+  image: /default/e969513037fbcc3e068a0c231c43132ca1aa1ebe.jpeg
+  markdown: <%= lipsum %>
+
+# Blog: Categorias
+- uuid: <%= uuid %>
+  created_at: <%= Time.now %>
+  updated_at: <%= Time.now %>
+  published_at: <%= Time.now %>
+  page: false
+  slug: tecnologia
+  title: Tecnologia
+  featured: false
+  language: en_US
+  status: published
+  markdown: <%= lipsum %>
+
+- uuid: <%= uuid %>
+  created_at: <%= Time.now %>
+  updated_at: <%= Time.now %>
+  published_at: <%= Time.now %>
+  page: false
+  slug: alimentos
+  title: Alimentos
+  featured: false
+  language: en_US
+  status: published
+  markdown: <%= lipsum %>
+
+- uuid: <%= uuid %>
+  created_at: <%= Time.now %>
+  updated_at: <%= Time.now %>
+  published_at: <%= Time.now %>
+  page: false
+  slug: actividades
+  title: Actividades
+  featured: false
+  language: en_US
+  status: published
+  markdown: <%= lipsum %>
+
+- uuid: <%= uuid %>
+  created_at: <%= Time.now %>
+  updated_at: <%= Time.now %>
+  published_at: <%= Time.now %>
+  page: false
+  slug: cursos
+  title: Cursos
+  featured: false
+  language: en_US
+  status: published
+  markdown: <%= lipsum %>
+
+- uuid: <%= uuid %>
+  created_at: <%= Time.now %>
+  updated_at: <%= Time.now %>
+  published_at: <%= Time.now %>
+  page: false
+  slug: coworking
+  title: Coworking
   featured: false
   language: en_US
   status: published

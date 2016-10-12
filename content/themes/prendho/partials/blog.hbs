@@ -1,0 +1,10 @@
+{{#tag}}
+  {{#get "posts" order="published_at desc" filter="tag:{{slug}}" include="author" as |item|}}
+    {{#foreach item}}
+      <h2><a href="{{url}}">{{title}}</a></h2> 
+      <span>{{date format="MMMM DD, YYYY"}} /by: {{author}}</span>   
+      <img src="{{image}}"  width="100%" height="250">
+      <p>{{content}}</p>
+    {{/foreach}}
+  {{/get}}
+{{/tag}}

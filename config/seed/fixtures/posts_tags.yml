@@ -25,3 +25,58 @@
 
 - tag_slug: nuestros-aliados
   post_slug: utpl
+
+# tag:post
+- tag_slug: post
+  post_slug: post-1
+
+- tag_slug: post
+  post_slug: post-2
+
+# tag:blog-category
+- tag_slug: blog-category
+  post_slug: tecnologia
+
+- tag_slug: blog-category
+  post_slug: alimentos
+
+- tag_slug: blog-category
+  post_slug: actividades
+
+- tag_slug: blog-category
+  post_slug: cursos
+
+- tag_slug: blog-category
+  post_slug: coworking
+
+# tag:blog
+- tag_slug: blog
+  post_slug: blog-post-1
+
+- tag_slug: blog
+  post_slug: blog-post-2
+
+- tag_slug: blog
+  post_slug: blog-post-3
+
+- tag_slug: blog
+  post_slug: blog-post-4
+
+- tag_slug: blog
+  post_slug: blog-post-5
+
+# tag: blog-tipo-categoria
+- tag_slug: tecnologia
+  post_slug: blog-post-1
+
+- tag_slug: tecnologia
+  post_slug: blog-post-2
+
+- tag_slug: cursos
+  post_slug: blog-post-3
+
+- tag_slug: cursos
+  post_slug: blog-post-4
+
+- tag_slug: actividades
+  post_slug: blog-post-5

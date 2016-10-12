@@ -13,3 +13,39 @@
   slug: nuestros-aliados
   description: Carrusel de nuestros aliados en página principal
   uuid: <%= uuid %>
+
+# Tag: post
+- name: Post
+  slug: post
+  uuid: <%= uuid %>
+
+# Tag: blog
+- name: Blog
+  slug: blog
+  uuid: <%= uuid %>
+
+# Tag: blog-categoria
+- name: Blog-category
+  slug: blog-category
+  uuid: <%= uuid %> 
+ 
+# Tag: blog-tipo-categoria
+- name: Tecnologia
+  slug: tecnologia
+  uuid: <%= uuid %>
+
+- name: Alimentos
+  slug: alimentos
+  uuid: <%= uuid %>
+
+- name: Actividades
+  slug: actividades
+  uuid: <%= uuid %>
+
+- name: Cursos
+  slug: cursos
+  uuid: <%= uuid %>
+
+- name: Coworking
+  slug: coworking
+  uuid: <%= uuid %>

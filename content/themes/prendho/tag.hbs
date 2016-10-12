@@ -1,0 +1,26 @@
+{{!< default}}
+<div class="col-xs-offset-2 col-xs-8 text-left">
+  <div class="page-header">
+    <h1>
+      <a href="/tag/blog/">Blog </a>
+      <small>
+        <span aria-hidden="true">&raquo;</span>
+        {{#tag}}
+          <a href="/tag/{{slug}}/">{{name}}</a>
+        {{/tag}}
+      </small>
+    </h1>
+  </div>
+</div>
+<div class="col-xs-offset-2 col-xs-8 text-left">
+  {{> "blog"}}  
+</div>
+<div class="col-xs-offset-2 col-xs-8">
+  {{> "paginacion"}}   
+</div>
+<div class="col-xs-offset-2 col-xs-8">
+  {{> "categorias"}}
+</div>
+<div class="col-xs-offset-2 col-xs-8">
+  {{> "post"}}
+</div>
