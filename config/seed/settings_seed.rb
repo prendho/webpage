@@ -5,6 +5,7 @@ class Seed
     DEFAULT_NAVIGATION = [
       { url: '/',           label: 'Inicio' },
       { url: '/coworking/', label: 'Coworking' },
+      { url: '/blog/', label: 'Blog' },
     ]
     DEFAULT_SETTINGS = [
       { key: "activeTheme", value: "prendho" },

@@ -184,3 +184,14 @@
   title: utpl
   markdown: <%= fake_sentence %>
   image: /default/logo_utpl.png
+
+- uuid: <%= uuid %>
+  created_at: <%= Time.now %>
+  updated_at: <%= Time.now %>
+  published_at: <%= Time.now %>
+  page: true
+  featured: false
+  language: en_US
+  status: published
+  slug: blog
+  title: Blog
