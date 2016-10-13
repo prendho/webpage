@@ -1,5 +1,5 @@
 <fieldset>
-  <legend><h3>Recent Post</h3></legend>
+  <legend class="text-left"><h3>Recent Post</h3></legend>
   {{#get "posts" order="published_at asc" filter="tag:post" limit="3"}}
     {{#foreach posts}}
       <div class="row">

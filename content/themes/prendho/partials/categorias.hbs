@@ -1,13 +1,11 @@
-<fieldset>
+<fieldset class="text-left">
   <legend><h3>Categorías</h3></legend>
-  <ul class="text-left">
+  <ul>
+    <li type="circle" target="_blank">
+      <a href="/tag/blog/" class="text-uppercase">All</a>
+    </li>
     {{#get "posts" order="asc" filter="tag:blog-category" as |item|}}
       {{#foreach item}}
-        {{#if @first}}
-          <li type="circle" target="_blank">
-            <a href="/tag/blog/" class="text-uppercase">All</a>
-          </li>
-        {{/if}}
         <li type="circle" target="_blank">
           <a href="/tag/{{slug}}/" class="text-uppercase">{{title}}</a>
         </li>
