@@ -13,3 +13,47 @@
   slug: nuestros-aliados
   description: Carrusel de nuestros aliados en página principal
   uuid: <%= uuid %>
+
+# Tag: post
+- name: Post
+  slug: post
+  description: Agrupa a todos los post 
+  uuid: <%= uuid %>
+
+# Tag: blog
+- name: Blog
+  slug: blog
+  description: Agrupa a todos los blog
+  uuid: <%= uuid %>
+
+# Tag: blog-categoria
+- name: Blog-category
+  slug: blog-category
+  description: Clasificación de los blog
+  uuid: <%= uuid %> 
+ 
+# Tag: blog-tipo-categoria
+- name: Tecnologia
+  slug: tecnologia
+  description: Agrupa los post que pertenecen al campo tecnológico
+  uuid: <%= uuid %>
+
+- name: Alimentos
+  slug: alimentos
+  description: Agrupa los post que pertenecen al campo de alimentos 
+  uuid: <%= uuid %>
+
+- name: Actividades
+  slug: actividades
+  description: Agrupa los post que pertenecen al campo de actividades
+  uuid: <%= uuid %>
+
+- name: Cursos
+  slug: cursos
+  description: Agrupa los post que pertenecen a cursos
+  uuid: <%= uuid %>
+
+- name: Coworking
+  slug: coworking
+  description: Agrupa los post que pertenecen al campo de trabajo
+  uuid: <%= uuid %>

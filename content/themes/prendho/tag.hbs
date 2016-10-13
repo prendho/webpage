@@ -1,0 +1,21 @@
+{{!< default}}
+<div class="col-xs-offset-2 col-xs-8 text-left">
+  <ol class="breadcrumb">
+    <li><h3><a href="/tag/blog/">Blog</a></h3></li>
+    {{#tag}}
+      <li><a href="/tag/{{slug}}/">{{name}}</a></li>
+    {{/tag}}
+  </ol>
+</div>
+<div class="col-xs-offset-2 col-xs-8 text-left">
+  {{> "blog"}}  
+</div>
+<div class="col-xs-offset-2 col-xs-8">
+  {{> "paginacion"}}   
+</div>
+<div class="col-xs-offset-2 col-xs-8">
+  {{> "categorias"}}
+</div>
+<div class="col-xs-offset-2 col-xs-8">
+  {{> "post"}}
+</div>
