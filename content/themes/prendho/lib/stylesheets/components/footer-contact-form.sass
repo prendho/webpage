@@ -24,7 +24,9 @@
   position: relative
   &--mask
     background-color: rgba($black, .9)
-    padding-bottom: 80px
+    @media (max-width: $screen-xs-max)
+      padding-top: 30px
+      padding-bottom: 50px
   &--border-mask
     position: absolute
     width: 100%
@@ -42,6 +44,7 @@
     @media (max-width: $screen-xs-max)
       background-position: 5% 100%
       background-size: 160%
+      bottom: -80px
 
 .footer-contact-form form
   font-family: OxygenLight
