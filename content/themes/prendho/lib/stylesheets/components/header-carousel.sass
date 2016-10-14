@@ -6,13 +6,15 @@ $smMinCaptionPadding: -400px
   .item
     position: relative
     .img-responsive
-      min-height: 350px
+      min-height: 380px
       background-size: cover
       background-repeat: no-repeat
       background-position: 50%
       @media (min-height: 550px)
         // iPhone 5 and forth
-        min-height: 400px
+        min-height: 440px
+      @media (min-width: $screen-sm-min)
+        min-height: 540px
 
     .caption
       font-family: OxygenLight
@@ -20,7 +22,7 @@ $smMinCaptionPadding: -400px
       bottom: $headerCarouselBottomPadding + 42px
       background-color: rgba(0,0,0,.5)
       color: white
-      max-width: 80%
+      max-width: 70%
       margin: auto
       left: 0
       right: 0
@@ -30,6 +32,11 @@ $smMinCaptionPadding: -400px
       @media (min-width: $screen-sm-min)
         max-width: 300px
         right: $smMinCaptionPadding
+        bottom: 150px
+      @media (min-width: $screen-md-min)
+        bottom: 160px
+      @media (min-width: $screen-lg-min)
+        bottom: 180px
       p
         text-align: left
         margin-bottom: 0
@@ -48,6 +55,11 @@ $smMinCaptionPadding: -400px
     background-color: rgba($main-blue, .9)
     @media (min-width: $screen-sm-min)
       right: $smMinCaptionPadding
+      bottom: 100px
+    @media (min-width: $screen-md-min)
+      bottom: 115px
+    @media (min-width: $screen-lg-min)
+      bottom: 130px
     .glyphicon
       color: white
       font-size: 18px
