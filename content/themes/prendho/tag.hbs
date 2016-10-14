@@ -3,7 +3,7 @@
   <ol class="breadcrumb">
     <li><h3><a href="/tag/blog/">Blog</a></h3></li>
     {{#tag}}
-      <li><a href="/tag/{{slug}}/">{{name}}</a></li>
+      <li><a  id="{{slug}}" href="/tag/{{slug}}/">{{name}}</a></li>
     {{/tag}}
   </ol>
 </div>
@@ -11,7 +11,7 @@
   {{> "blog"}}  
 </div>
 <div class="col-xs-offset-2 col-xs-8">
-  {{> "paginacion"}}   
+  {{pagination}} 
 </div>
 <div class="col-xs-offset-2 col-xs-8">
   {{> "categorias"}}
