@@ -10,8 +10,7 @@ $smMinCaptionPadding: -400px
       background-size: cover
       background-repeat: no-repeat
       background-position: 50%
-      @media (min-height: 550px)
-        // iPhone 5 and forth
+      @media (min-height: $mobileSMHeight)
         min-height: 440px
       @media (min-width: $screen-sm-min)
         min-height: 540px
@@ -81,3 +80,7 @@ $smMinCaptionPadding: -400px
     background-position: 50% 100%
     background-repeat: no-repeat
     background-image: url('../static/curva_gris_slide.png')
+    @media (max-width: $screen-xs-max)
+      height: 140px
+    @media (max-width: $mobileSMWidth)
+      height: 70px
