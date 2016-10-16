@@ -6,7 +6,7 @@
     </li>
     {{#get "posts" order="asc" filter="tag:blog-category" as |item|}}
       {{#foreach item}}
-        <li type="circle" target="_blank">
+        <li type="circle">
           <a href="/tag/{{slug}}/" class="text-uppercase">{{title}}</a>
         </li>
       {{/foreach}}

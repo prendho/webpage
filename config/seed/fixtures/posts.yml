@@ -78,20 +78,6 @@
   created_at: <%= Time.now %>
   updated_at: <%= Time.now %>
   published_at: <%= Time.now %>
-  page: true
-  featured: false
-  language: en_US
-  status: published
-  slug: coworking
-  title: Coworking
-  markdown: |
-    Es una forma de trabajo que permite a emprendedores compartir un mismo espacio de trabajo para desarrollar sus proyectos profesionales de manera independiente, a la vez que fomentan proyectos conjuntos.
-    Contamos con 48 puestos disponibles.
-
-- uuid: <%= uuid %>
-  created_at: <%= Time.now %>
-  updated_at: <%= Time.now %>
-  published_at: <%= Time.now %>
   page: false
   featured: false
   language: en_US
@@ -338,6 +324,262 @@
   featured: false
   language: en_US
   status: published
-  slug: blog
-  title: Blog
   markdown: <%= fake_sentence %>
+
+# Coworking: Pagina
+- uuid: <%= uuid %>
+  created_at: <%= Time.now %>
+  updated_at: <%= Time.now %>
+  published_at: <%= Time.now %>
+  page: true
+  featured: false
+  language: en_US
+  status: published
+  slug: coworking
+  title: Coworking
+  markdown: |
+    Es una forma de trabajo que permite a emprendedores compartir un mismo espacio de trabajo para desarrollar sus proyectos profesionales de manera independiente, a la vez que fomentan proyectos conjuntos.
+    Contamos con 48 puestos disponibles.
+
+# Coworking: Servicios coworking
+- uuid: <%= uuid %>
+  created_at: <%= Time.now %>
+  updated_at: <%= Time.now %>
+  published_at: <%= Time.now %>
+  page: false
+  featured: false
+  language: en_US
+  status: published
+  slug: servicio-1
+  title: Espacio físico
+  markdown: <%= fake_sentence %>
+
+- uuid: <%= uuid %>
+  created_at: <%= Time.now %>
+  updated_at: <%= Time.now %>
+  published_at: <%= Time.now %>
+  page: false
+  featured: false
+  language: en_US
+  status: published
+  slug: servicio-2
+  title: Internet de alta velocidad
+  markdown: <%= fake_sentence %>
+
+- uuid: <%= uuid %>
+  created_at: <%= Time.now %>
+  updated_at: <%= Time.now %>
+  published_at: <%= Time.now %>
+  page: false
+  featured: false
+  language: en_US
+  status: published
+  slug: servicio-3
+  title: Casillero
+  markdown: <%= fake_sentence %>
+
+- uuid: <%= uuid %>
+  created_at: <%= Time.now %>
+  updated_at: <%= Time.now %>
+  published_at: <%= Time.now %>
+  page: false
+  featured: false
+  language: en_US
+  status: published
+  slug: servicio-4
+  title: Espacio físico
+  markdown: <%= fake_sentence %>
+
+- uuid: <%= uuid %>
+  created_at: <%= Time.now %>
+  updated_at: <%= Time.now %>
+  published_at: <%= Time.now %>
+  page: false
+  featured: false
+  language: en_US
+  status: published
+  slug: servicio-5
+  title: Espacio para reuniones
+  markdown: <%= fake_sentence %>
+
+- uuid: <%= uuid %>
+  created_at: <%= Time.now %>
+  updated_at: <%= Time.now %>
+  published_at: <%= Time.now %>
+  page: false
+  featured: false
+  language: en_US
+  status: published
+  slug: servicio-6
+  title: Servicios básicos
+  markdown: <%= fake_sentence %>
+
+- uuid: <%= uuid %>
+  created_at: <%= Time.now %>
+  updated_at: <%= Time.now %>
+  published_at: <%= Time.now %>
+  page: false
+  featured: false
+  language: en_US
+  status: published
+  slug: servicio-7
+  title: Equipo de cómputo
+  markdown: <%= fake_sentence %>
+
+# Coworking: Servicios beneficios
+- uuid: <%= uuid %>
+  created_at: <%= Time.now %>
+  updated_at: <%= Time.now %>
+  published_at: <%= Time.now %>
+  page: false
+  featured: false
+  language: en_US
+  status: published
+  slug: beneficio-1
+  title: Talleres y conferencias
+  markdown: <%= fake_sentence %>
+
+- uuid: <%= uuid %>
+  created_at: <%= Time.now %>
+  updated_at: <%= Time.now %>
+  published_at: <%= Time.now %>
+  page: false
+  featured: false
+  language: en_US
+  status: published
+  slug: beneficio-2
+  title: Infraestructura en la nube (a travéz de socios tecnológicos con IBM Y Microsoft)
+  markdown: <%= fake_sentence %>
+
+- uuid: <%= uuid %>
+  created_at: <%= Time.now %>
+  updated_at: <%= Time.now %>
+  published_at: <%= Time.now %>
+  page: false
+  featured: false
+  language: en_US
+  status: published
+  slug: beneficio-3
+  title: Acceso a laboratorios de prototipado, pasantías de estudiantes y otros servicios previstos por UTPL
+  markdown: <%= fake_sentence %>
+
+# Coworking: Paquetes 
+- uuid: <%= uuid %>
+  created_at: <%= Time.now %>
+  updated_at: <%= Time.now %>
+  published_at: <%= Time.now %>
+  page: false
+  featured: false
+  language: en_US
+  status: published
+  slug: coworking-paquetes
+  title: Paquetes para contratar
+  markdown: Loryn insup is simple husmpi jaya nahay hahs baaha bdgd hsajajgs agsahgs hasgha ahgshjags
+
+# Coworking: Paquetes carrusel
+- uuid: <%= uuid %>
+  created_at: <%= Time.now %>
+  updated_at: <%= Time.now %>
+  published_at: <%= Time.now %>
+  page: false
+  featured: false
+  language: en_US
+  status: published
+  slug: paquete-1
+  title: Paquete Villonaco
+  meta_title: $65
+  markdown: |
+    - Espacio físico para una persona
+    - Servicios básicos
+    - Internet
+    - Taller  o conferencia mensual
+    - Casillero
+    - Equipo de computo
+    - Sala de runiones (4 horas a mes)
+    - Infraestructura en la nube
+    - Acceso al laboratorio de prototipo, pasantías de estudiantes en los emprendimientos, y otro servicios porvistos por UTLP
+
+- uuid: <%= uuid %>
+  created_at: <%= Time.now %>
+  updated_at: <%= Time.now %>
+  published_at: <%= Time.now %>
+  page: false
+  featured: false
+  language: en_US
+  status: published
+  slug: paquete-2
+  title: Paquete Opcional 
+  meta_title: $50
+  markdown: |
+    - Espacio físico para una persona
+    - Servicios básicos
+    - Internet
+    - Taller  o conferencia mensual
+    - Casillero
+    - Equipo de computo
+    
+# Coworking: Galeria
+- uuid: <%= uuid %>
+  created_at: <%= Time.now %>
+  updated_at: <%= Time.now %>
+  published_at: <%= Time.now %>
+  page: false
+  featured: false
+  language: en_US
+  status: published
+  slug: coworking-galeria
+  title: Galeria
+  markdown: Loryn insup is simple husmpi jaya nahay hahs baaha bdgd hsajajgs agsahgs hasgha ahgshjags
+  
+# Coworking: Galeria carrusel
+- uuid: <%= uuid %>
+  created_at: <%= Time.now %>
+  updated_at: <%= Time.now %>
+  published_at: <%= Time.now %>
+  page: false
+  featured: false
+  language: en_US
+  status: published
+  slug: galeria-1
+  title: Galeria 1
+  markdown: <%= fake_sentence %>
+  image: /default/logo_conectate_color.png
+
+- uuid: <%= uuid %>
+  created_at: <%= Time.now %>
+  updated_at: <%= Time.now %>
+  published_at: <%= Time.now %>
+  page: false
+  featured: false
+  language: en_US
+  status: published
+  slug: galeria-2
+  title: Galeria 2
+  markdown: <%= fake_sentence %>
+  image: /default/logo_noggalito_color.png
+
+- uuid: <%= uuid %>
+  created_at: <%= Time.now %>
+  updated_at: <%= Time.now %>
+  published_at: <%= Time.now %>
+  page: false
+  featured: false
+  language: en_US
+  status: published
+  slug: galeria-3
+  title: Galeria 3
+  markdown: <%= fake_sentence %>
+  image: /default/logo_AEI.png
+
+- uuid: <%= uuid %>
+  created_at: <%= Time.now %>
+  updated_at: <%= Time.now %>
+  published_at: <%= Time.now %>
+  page: false
+  featured: false
+  language: en_US
+  status: published
+  slug: galeria-4
+  title: Galeria 4
+  markdown: <%= fake_sentence %>
+  image: /default/logo_fedes.png

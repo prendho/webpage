@@ -57,3 +57,27 @@
   slug: coworking
   description: Agrupa los post que pertenecen al campo de trabajo
   uuid: <%= uuid %>
+
+# Tag: coworking-servicios
+- name: Servicios Coworking
+  slug: coworking-servicios
+  description: Agrupa los post que son servicios de coworking
+  uuid: <%= uuid %>
+
+# Tag: coworking-beneficios
+- name: Beneficios
+  slug: coworking-beneficios
+  description: Agrupa los post que son beneficios  de coworking
+  uuid: <%= uuid %>
+
+# Tag: coworking-galeria
+- name: Galeria
+  slug: coworking-galeria
+  description: Carrusel de galeria en página coworking
+  uuid: <%= uuid %>
+
+# Tag: coworking-paquetes
+- name: Paquetes
+  slug: coworking-paquetes
+  description: Carrusel de paquetes en página coworking
+  uuid: <%= uuid %>
