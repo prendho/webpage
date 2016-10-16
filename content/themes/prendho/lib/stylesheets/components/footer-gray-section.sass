@@ -5,21 +5,28 @@
     padding-right: 0
   .footer-brand-logo
     max-width: 50%
+    max-height: 70px
 
   .social-networks
+    position: absolute
     @media (max-width: $screen-xs-max)
-      position: absolute
       right: 0
       top: 0
+    @media (min-width: $screen-sm-min)
+      top: 100px
+      right: 0
     img
       max-height: 25px
       margin-left: 10px
 
   .navbar-nav
+    float: none
     margin-left: 0
     margin-right: 0
     text-align: left
     margin-top: 20px
+    @media (min-width: $screen-sm-min)
+      margin-right: 100px
     li
       display: inline-block
       a
@@ -39,7 +46,7 @@
       margin-right: 20px
 
   .signature
-    margin-bottom: 20px
+    margin-bottom: 30px
     a
       font-size: 12px
       font-family: OxygenLight
