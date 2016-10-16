@@ -1,5 +1,49 @@
 .footer-gray-section
-  // background-color: $footerGray
+  position: relative
+  @media (max-width: $screen-xs-max)
+    padding-left: 0
+    padding-right: 0
+  .footer-brand-logo
+    max-width: 50%
+
+  .social-networks
+    @media (max-width: $screen-xs-max)
+      position: absolute
+      right: 0
+      top: 0
+    img
+      max-height: 25px
+      margin-left: 10px
+
+  .navbar-nav
+    margin-left: 0
+    margin-right: 0
+    text-align: left
+    margin-top: 20px
+    li
+      display: inline-block
+      a
+        font-family: NewCycle
+        font-size: 16px
+        padding-left: 0
+        text-transform: lowercase
+        &:hover, &:focus, &:active
+          background-color: transparent
+
+  .license
+    font-family: OxygenLight
+    font-size: 13px
+    text-align: left
+    margin-top: 15px
+    @media (max-width: $screen-xs-max)
+      margin-right: 20px
+
+  .signature
+    margin-bottom: 20px
+    a
+      font-size: 12px
+      font-family: OxygenLight
+      color: $titlesBlack
 
 .footer-gray-section-wrapper
-  background-color: $footerGray
+  background-color: $footerBGGray
