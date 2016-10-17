@@ -474,7 +474,7 @@
   status: published
   slug: coworking-paquetes
   title: Paquetes para contratar
-  markdown: Loryn insup is simple dummy text of the printing and typesetting industry
+  markdown: <%= fake_sentence %>
 
 # Coworking: Paquetes carrusel
 - uuid: <%= uuid %>
@@ -529,7 +529,7 @@
   status: published
   slug: coworking-galeria
   title: Galeria
-  markdown: Loryn insup is simple dummy text of the printing and typesetting industry
+  markdown: <%= fake_sentence %>
   
 # Coworking: Galeria carrusel
 - uuid: <%= uuid %>
