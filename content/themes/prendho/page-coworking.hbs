@@ -4,10 +4,7 @@
 
     <div class="col-xs-offset-2 col-xs-8">
       <div class="common-gallery-post">
-        {{#post}}
-          <h2>{{title}}</h2>
-          {{content}}
-        {{/post}}
+        {{> "common-gallery-post" item=post}}
       </div>
     </div>
 
@@ -26,7 +23,7 @@
 
     <div class="col-xs-offset-2 col-xs-8">
       <img src="{{asset "static/icono_coworking.png"}}" class="img-circle">
-    </div>  
+    </div>
 
     <div class="col-xs-offset-2 col-xs-8">
       <div class="common-gallery-post text-left">
