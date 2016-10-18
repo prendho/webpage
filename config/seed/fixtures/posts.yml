@@ -543,7 +543,7 @@
   slug: galeria-1
   title: Galeria 1
   markdown: <%= fake_sentence %>
-  image: /default/logo_conectate_color.png
+  image: http://placehold.it/350x150?text=galeria+1
 
 - uuid: <%= uuid %>
   created_at: <%= Time.now %>
@@ -556,7 +556,7 @@
   slug: galeria-2
   title: Galeria 2
   markdown: <%= fake_sentence %>
-  image: /default/logo_noggalito_color.png
+  image: http://placehold.it/350x150?text=galeria+2
 
 - uuid: <%= uuid %>
   created_at: <%= Time.now %>
@@ -569,7 +569,7 @@
   slug: galeria-3
   title: Galeria 3
   markdown: <%= fake_sentence %>
-  image: /default/logo_AEI.png
+  image: http://placehold.it/350x150?text=galeria+3
 
 - uuid: <%= uuid %>
   created_at: <%= Time.now %>
@@ -582,4 +582,4 @@
   slug: galeria-4
   title: Galeria 4
   markdown: <%= fake_sentence %>
-  image: /default/logo_fedes.png
+  image: http://placehold.it/350x150?text=galeria+4
