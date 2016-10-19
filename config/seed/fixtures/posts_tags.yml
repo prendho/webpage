@@ -100,3 +100,17 @@
 
 - tag_slug: coworking-paquetes
   post_slug: paquete-2
+
+# tag:emprendimientos
+- tag_slug: emprendimientos
+  post_slug: emprendimiento-1
+
+- tag_slug: emprendimientos
+  post_slug: emprendimiento-2
+  
+- tag_slug: emprendimientos
+  post_slug: emprendimiento-3
+
+- tag_slug: emprendimientos
+  post_slug: emprendimiento-4
+  

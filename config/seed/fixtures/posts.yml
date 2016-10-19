@@ -498,3 +498,84 @@
   title: Galeria 4
   markdown: <%= fake_sentence %>
   image: http://placehold.it/350x150?text=galeria+4
+
+# Emprendimientos: Pagina
+- uuid: <%= uuid %>
+  created_at: <%= Time.now %>
+  updated_at: <%= Time.now %>
+  published_at: <%= Time.now %>
+  page: true
+  featured: false
+  language: en_US
+  status: published
+  slug: emprendimientos
+  title: Emprendimientos
+  markdown:  <%= fake_sentence %>
+   
+
+# Emprendimientos: Post
+- uuid: <%= uuid %>
+  created_at: <%= Time.now %>
+  updated_at: <%= Time.now %>
+  published_at: <%= Time.now %>
+  page: false
+  featured: false
+  language: en_US
+  status: published
+  slug: emprendimiento-1
+  title: Agroindustrial
+  markdown: |
+    - Integrales del Oro
+    - Soray
+    - Conservas Don Felix
+    - Iwia Guayusa
+    - Casillero
+  image: http://placehold.it/350x150?text=galeria+1
+
+- uuid: <%= uuid %>
+  created_at: <%= Time.now %>
+  updated_at: <%= Time.now %>
+  published_at: <%= Time.now %>
+  page: false
+  featured: false
+  language: en_US
+  status: published
+  slug: emprendimiento-2
+  title: Electrónica
+  markdown: |
+    - Kradac
+    - Sic Electrictelecom
+    - Conectate al aire
+  image: http://placehold.it/350x150?text=galeria+2
+
+- uuid: <%= uuid %>
+  created_at: <%= Time.now %>
+  updated_at: <%= Time.now %>
+  published_at: <%= Time.now %>
+  page: false
+  featured: false
+  language: en_US
+  status: published
+  slug: emprendimiento-3
+  title: Tecnologia
+  markdown: |
+    - Cic Secure
+    - SetProject
+    - Noggalito
+    - Aprendizaje Libre
+  image: http://placehold.it/350x150?text=galeria+3
+
+- uuid: <%= uuid %>
+  created_at: <%= Time.now %>
+  updated_at: <%= Time.now %>
+  published_at: <%= Time.now %>
+  page: false
+  featured: false
+  language: en_US
+  status: published
+  slug: emprendimiento-4
+  title: Diseño y Moda
+  markdown: |
+    - Meets
+  image: http://placehold.it/350x150?text=galeria+4
+  
