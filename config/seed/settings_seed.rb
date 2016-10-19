@@ -10,7 +10,7 @@ class Seed
     DEFAULT_SETTINGS = [
       { key: "activeTheme", value: "prendho" },
       { key: "labs",        value: '{"publicAPI":true}' },
-      { key: "logo",        value: '/default/prendho_logo_header.png' },
+      { key: "logo",        value: '/default/prendho_logo_header.svg' },
       { key: "navigation",  value: DEFAULT_NAVIGATION.to_json }
     ]
 
