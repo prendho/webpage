@@ -319,7 +319,7 @@
   updated_at: <%= Time.now %>
   published_at: <%= Time.now %>
   page: false
-  slug: coworking
+  slug: coworking-tag
   title: Coworking
   featured: false
   language: en_US
@@ -350,81 +350,17 @@
   featured: false
   language: en_US
   status: published
-  slug: servicio-1
-  title: Espacio físico
-  markdown: <%= fake_sentence %>
-
-- uuid: <%= uuid %>
-  created_at: <%= Time.now %>
-  updated_at: <%= Time.now %>
-  published_at: <%= Time.now %>
-  page: false
-  featured: false
-  language: en_US
-  status: published
-  slug: servicio-2
-  title: Internet de alta velocidad
-  markdown: <%= fake_sentence %>
-
-- uuid: <%= uuid %>
-  created_at: <%= Time.now %>
-  updated_at: <%= Time.now %>
-  published_at: <%= Time.now %>
-  page: false
-  featured: false
-  language: en_US
-  status: published
-  slug: servicio-3
-  title: Casillero
-  markdown: <%= fake_sentence %>
-
-- uuid: <%= uuid %>
-  created_at: <%= Time.now %>
-  updated_at: <%= Time.now %>
-  published_at: <%= Time.now %>
-  page: false
-  featured: false
-  language: en_US
-  status: published
-  slug: servicio-4
-  title: Espacio físico
-  markdown: <%= fake_sentence %>
-
-- uuid: <%= uuid %>
-  created_at: <%= Time.now %>
-  updated_at: <%= Time.now %>
-  published_at: <%= Time.now %>
-  page: false
-  featured: false
-  language: en_US
-  status: published
-  slug: servicio-5
-  title: Espacio para reuniones
-  markdown: <%= fake_sentence %>
-
-- uuid: <%= uuid %>
-  created_at: <%= Time.now %>
-  updated_at: <%= Time.now %>
-  published_at: <%= Time.now %>
-  page: false
-  featured: false
-  language: en_US
-  status: published
-  slug: servicio-6
-  title: Servicios básicos
-  markdown: <%= fake_sentence %>
-
-- uuid: <%= uuid %>
-  created_at: <%= Time.now %>
-  updated_at: <%= Time.now %>
-  published_at: <%= Time.now %>
-  page: false
-  featured: false
-  language: en_US
-  status: published
-  slug: servicio-7
-  title: Equipo de cómputo
-  markdown: <%= fake_sentence %>
+  slug: coworking-servicios
+  title: Servicios Coworking
+  markdown: |
+    - Espacio físico
+    - Internet de alta velocidad
+    - Casillero
+    - Espacio físico
+    - Espacio para reuniones
+    - Servicios básicos
+    - Equipo de cómputo
+  image: /default/icono_coworking.png
 
 # Coworking: Servicios beneficios
 - uuid: <%= uuid %>
@@ -463,7 +399,7 @@
   title: Acceso a laboratorios de prototipado, pasantías de estudiantes y otros servicios previstos por UTPL
   markdown: <%= fake_sentence %>
 
-# Coworking: Paquetes 
+# Coworking: Paquetes
 - uuid: <%= uuid %>
   created_at: <%= Time.now %>
   updated_at: <%= Time.now %>
@@ -508,7 +444,7 @@
   language: en_US
   status: published
   slug: paquete-2
-  title: Paquete Opcional 
+  title: Paquete Opcional
   meta_title: $50
   markdown: |
     - Espacio físico para una persona
@@ -517,7 +453,7 @@
     - Taller  o conferencia mensual
     - Casillero
     - Equipo de computo
-    
+
 # Coworking: Galeria
 - uuid: <%= uuid %>
   created_at: <%= Time.now %>
@@ -530,7 +466,7 @@
   slug: coworking-galeria
   title: Galeria
   markdown: <%= fake_sentence %>
-  
+
 # Coworking: Galeria carrusel
 - uuid: <%= uuid %>
   created_at: <%= Time.now %>
