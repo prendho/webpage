@@ -93,6 +93,6 @@
   uuid: <%= uuid %>
 
 - name: Diseño y Moda
-  slug: emprendimiento-diseño-moda
+  slug: emprendimiento-diseno-moda
   description: Agrupa los post que pertenecen a emprendimientos del area diseño y moda
   uuid: <%= uuid %>

@@ -560,7 +560,7 @@
   featured: false
   language: en_US
   status: published
-  slug: emprendimiento-diseño-moda
+  slug: emprendimiento-diseno-moda
   title: Diseño y Moda
   markdown: <%= fake_sentence %>
   image: /default/iconi_disymoda.png

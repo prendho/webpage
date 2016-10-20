@@ -112,7 +112,7 @@
   post_slug: emprendimiento-tecnologia
 
 - tag_slug: emprendimiento-category
-  post_slug: emprendimiento-diseño-moda
+  post_slug: emprendimiento-diseno-moda
 
 # tag:emprendimientos
 - tag_slug: emprendimiento-agroindustrial
@@ -151,5 +151,5 @@
 - tag_slug: emprendimiento-tecnologia
   post_slug: emprendimiento-12
 
-- tag_slug: emprendimiento-diseño-moda
+- tag_slug: emprendimiento-diseno-moda
   post_slug: emprendimiento-13
