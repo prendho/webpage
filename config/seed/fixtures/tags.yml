@@ -70,8 +70,8 @@
   description: Carrusel de paquetes en página coworking
   uuid: <%= uuid %>
 
+# Tag: emprendimientos
 - name: Emprendimientos
   slug: emprendimientos
   description: Agrupa los post que pertenecen a emprendimientos
   uuid: <%= uuid %>
-  

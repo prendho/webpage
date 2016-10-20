@@ -512,7 +512,6 @@
   title: Emprendimientos
   markdown:  <%= fake_sentence %>
    
-
 # Emprendimientos: Post
 - uuid: <%= uuid %>
   created_at: <%= Time.now %>
@@ -530,7 +529,7 @@
     - Conservas Don Felix
     - Iwia Guayusa
     - Casillero
-  image: http://placehold.it/350x150?text=galeria+1
+  image: /default/icono_agroid.png
 
 - uuid: <%= uuid %>
   created_at: <%= Time.now %>
@@ -546,7 +545,7 @@
     - Kradac
     - Sic Electrictelecom
     - Conectate al aire
-  image: http://placehold.it/350x150?text=galeria+2
+  image: /default/icono_elec.png
 
 - uuid: <%= uuid %>
   created_at: <%= Time.now %>
@@ -563,7 +562,7 @@
     - SetProject
     - Noggalito
     - Aprendizaje Libre
-  image: http://placehold.it/350x150?text=galeria+3
+  image: /default/icono_tecno.png
 
 - uuid: <%= uuid %>
   created_at: <%= Time.now %>
@@ -577,5 +576,4 @@
   title: Diseño y Moda
   markdown: |
     - Meets
-  image: http://placehold.it/350x150?text=galeria+4
-  
+  image: /default/iconi_disymoda.png
