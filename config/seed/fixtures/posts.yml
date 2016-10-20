@@ -498,3 +498,226 @@
   title: Galeria 4
   markdown: <%= fake_sentence %>
   image: http://placehold.it/350x150?text=galeria+4
+
+# Emprendimientos: Pagina
+- uuid: <%= uuid %>
+  created_at: <%= Time.now %>
+  updated_at: <%= Time.now %>
+  published_at: <%= Time.now %>
+  page: true
+  featured: false
+  language: en_US
+  status: published
+  slug: emprendimientos
+  title: Emprendimientos
+  markdown:  <%= fake_sentence %>
+   
+# Emprendimiento: Categorias
+- uuid: <%= uuid %>
+  created_at: <%= Time.now %>
+  updated_at: <%= Time.now %>
+  published_at: <%= Time.now %>
+  page: false
+  featured: false
+  language: en_US
+  status: published
+  slug: emprendimiento-agroindustrial
+  title: Agroindustrial
+  markdown: <%= fake_sentence %>
+  image: /default/icono_agroid.png
+
+- uuid: <%= uuid %>
+  created_at: <%= Time.now %>
+  updated_at: <%= Time.now %>
+  published_at: <%= Time.now %>
+  page: false
+  featured: false
+  language: en_US
+  status: published
+  slug: emprendimiento-electronica
+  title: Electrónica
+  markdown: <%= fake_sentence %>
+  image: /default/icono_elec.png
+
+- uuid: <%= uuid %>
+  created_at: <%= Time.now %>
+  updated_at: <%= Time.now %>
+  published_at: <%= Time.now %>
+  page: false
+  featured: false
+  language: en_US
+  status: published
+  slug: emprendimiento-tecnologia
+  title: Tecnologia
+  markdown: <%= fake_sentence %>
+  image: /default/icono_tecno.png
+
+- uuid: <%= uuid %>
+  created_at: <%= Time.now %>
+  updated_at: <%= Time.now %>
+  published_at: <%= Time.now %>
+  page: false
+  featured: false
+  language: en_US
+  status: published
+  slug: emprendimiento-diseno-moda
+  title: Diseño y Moda
+  markdown: <%= fake_sentence %>
+  image: /default/iconi_disymoda.png
+
+# Emprendimiento: Blog
+- uuid: <%= uuid %>
+  created_at: <%= Time.now %>
+  updated_at: <%= Time.now %>
+  published_at: <%= Time.now %>
+  page: false
+  featured: false
+  language: en_US
+  status: published
+  slug: emprendimiento-1
+  title: Integrales de Oro
+  markdown: <%= fake_sentence %>
+
+- uuid: <%= uuid %>
+  created_at: <%= Time.now %>
+  updated_at: <%= Time.now %>
+  published_at: <%= Time.now %>
+  page: false
+  featured: false
+  language: en_US
+  status: published
+  slug: emprendimiento-2
+  title: Sorayd
+  markdown: <%= fake_sentence %>
+
+- uuid: <%= uuid %>
+  created_at: <%= Time.now %>
+  updated_at: <%= Time.now %>
+  published_at: <%= Time.now %>
+  page: false
+  featured: false
+  language: en_US
+  status: published
+  slug: emprendimiento-3
+  title: Conservas Don Felix
+  markdown: <%= fake_sentence %>
+
+- uuid: <%= uuid %>
+  created_at: <%= Time.now %>
+  updated_at: <%= Time.now %>
+  published_at: <%= Time.now %>
+  page: false
+  featured: false
+  language: en_US
+  status: published
+  slug: emprendimiento-4
+  title: Iwia Guayusa
+  markdown: <%= fake_sentence %>
+
+- uuid: <%= uuid %>
+  created_at: <%= Time.now %>
+  updated_at: <%= Time.now %>
+  published_at: <%= Time.now %>
+  page: false
+  featured: false
+  language: en_US
+  status: published
+  slug: emprendimiento-5
+  title: Casillero
+  markdown: <%= fake_sentence %>
+
+- uuid: <%= uuid %>
+  created_at: <%= Time.now %>
+  updated_at: <%= Time.now %>
+  published_at: <%= Time.now %>
+  page: false
+  featured: false
+  language: en_US
+  status: published
+  slug: emprendimiento-6
+  title: Kradac
+  markdown: <%= fake_sentence %>
+
+- uuid: <%= uuid %>
+  created_at: <%= Time.now %>
+  updated_at: <%= Time.now %>
+  published_at: <%= Time.now %>
+  page: false
+  featured: false
+  language: en_US
+  status: published
+  slug: emprendimiento-7
+  title: Sec Electrictelecom
+  markdown: <%= fake_sentence %>
+
+- uuid: <%= uuid %>
+  created_at: <%= Time.now %>
+  updated_at: <%= Time.now %>
+  published_at: <%= Time.now %>
+  page: false
+  featured: false
+  language: en_US
+  status: published
+  slug: emprendimiento-8
+  title: Conéctate al Aire
+  markdown: <%= fake_sentence %>
+
+- uuid: <%= uuid %>
+  created_at: <%= Time.now %>
+  updated_at: <%= Time.now %>
+  published_at: <%= Time.now %>
+  page: false
+  featured: false
+  language: en_US
+  status: published
+  slug: emprendimiento-9
+  title: Cid Secure
+  markdown: <%= fake_sentence %>
+
+- uuid: <%= uuid %>
+  created_at: <%= Time.now %>
+  updated_at: <%= Time.now %>
+  published_at: <%= Time.now %>
+  page: false
+  featured: false
+  language: en_US
+  status: published
+  slug: emprendimiento-10
+  title: SetProject
+  markdown: <%= fake_sentence %>
+
+- uuid: <%= uuid %>
+  created_at: <%= Time.now %>
+  updated_at: <%= Time.now %>
+  published_at: <%= Time.now %>
+  page: false
+  featured: false
+  language: en_US
+  status: published
+  slug: emprendimiento-11
+  title: Noggalito
+  markdown: <%= fake_sentence %>
+
+- uuid: <%= uuid %>
+  created_at: <%= Time.now %>
+  updated_at: <%= Time.now %>
+  published_at: <%= Time.now %>
+  page: false
+  featured: false
+  language: en_US
+  status: published
+  slug: emprendimiento-12
+  title: Aprendizaje Libre
+  markdown: <%= fake_sentence %>
+
+- uuid: <%= uuid %>
+  created_at: <%= Time.now %>
+  updated_at: <%= Time.now %>
+  published_at: <%= Time.now %>
+  page: false
+  featured: false
+  language: en_US
+  status: published
+  slug: emprendimiento-13
+  title: Meets
+  markdown: <%= fake_sentence %>

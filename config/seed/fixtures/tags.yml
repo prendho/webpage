@@ -69,3 +69,30 @@
   slug: coworking-paquetes
   description: Carrusel de paquetes en página coworking
   uuid: <%= uuid %>
+
+# Tag: emprendimientos-categorias
+- name: Emprendimiento categorias
+  slug: emprendimiento-category
+  description: Clasificación de los emprendimientos
+  uuid: <%= uuid %> 
+
+# Tag: emprendimientos-tipos-categorias
+- name: Agroindustrial
+  slug: emprendimiento-agroindustrial
+  description: Agrupa los post que pertenecen a emprendimientos del area agroindustria
+  uuid: <%= uuid %>
+
+- name: Electrónica
+  slug: emprendimiento-electronica
+  description: Agrupa los post que pertenecen a emprendimientos del area electrónica
+  uuid: <%= uuid %>
+
+- name: Tecnologia
+  slug: emprendimiento-tecnologia
+  description: Agrupa los post que pertenecen a emprendimientos del area tecnológica
+  uuid: <%= uuid %>
+
+- name: Diseño y Moda
+  slug: emprendimiento-diseno-moda
+  description: Agrupa los post que pertenecen a emprendimientos del area diseño y moda
+  uuid: <%= uuid %>
