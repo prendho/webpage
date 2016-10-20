@@ -101,15 +101,55 @@
 - tag_slug: coworking-paquetes
   post_slug: paquete-2
 
+# tag:emprendimientos-categorias
+- tag_slug: emprendimiento-category
+  post_slug: emprendimiento-agroindustrial
+
+- tag_slug: emprendimiento-category
+  post_slug: emprendimiento-electronica
+  
+- tag_slug: emprendimiento-category
+  post_slug: emprendimiento-tecnologia
+
+- tag_slug: emprendimiento-category
+  post_slug: emprendimiento-diseño-moda
+
 # tag:emprendimientos
-- tag_slug: emprendimientos
+- tag_slug: emprendimiento-agroindustrial
   post_slug: emprendimiento-1
 
-- tag_slug: emprendimientos
+- tag_slug: emprendimiento-agroindustrial
   post_slug: emprendimiento-2
   
-- tag_slug: emprendimientos
+- tag_slug: emprendimiento-agroindustrial
   post_slug: emprendimiento-3
 
-- tag_slug: emprendimientos
+- tag_slug: emprendimiento-agroindustrial
   post_slug: emprendimiento-4
+
+- tag_slug: emprendimiento-agroindustrial
+  post_slug: emprendimiento-5
+  
+- tag_slug: emprendimiento-electronica
+  post_slug: emprendimiento-6
+
+- tag_slug: emprendimiento-electronica
+  post_slug: emprendimiento-7
+
+- tag_slug: emprendimiento-electronica
+  post_slug: emprendimiento-8
+  
+- tag_slug: emprendimiento-tecnologia
+  post_slug: emprendimiento-9
+
+- tag_slug: emprendimiento-tecnologia
+  post_slug: emprendimiento-10
+
+- tag_slug: emprendimiento-tecnologia
+  post_slug: emprendimiento-11
+  
+- tag_slug: emprendimiento-tecnologia
+  post_slug: emprendimiento-12
+
+- tag_slug: emprendimiento-diseño-moda
+  post_slug: emprendimiento-13

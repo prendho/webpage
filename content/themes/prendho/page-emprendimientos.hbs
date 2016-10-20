@@ -5,17 +5,21 @@
       {{> "common-gallery-post" item=post}}
     </div>
     <div class="col-xs-offset-2 col-xs-8">
-      {{#get "posts" filter="tag:emprendimientos" order="published_at desc" as |items|}}
+      {{#get "posts" filter="tag:emprendimiento-category" order="published_at asc" include="tags" as |items|}}
         {{#foreach items}}
-          <div class="common-gallery-post">
-            <div class="row">
-              <div class="col-xs-4 col-sm-2"> 
-                <img src="{{image}}" class="img-circle"  width="100%" height="100px">
-              </div>
-              <div class="col-xs-8 col-sm-10">
-                <h4><strong>{{title}}</strong></h4>
-                <div class="text-justify">{{content}}</div>
-              </div>
+          <div class="row">
+            <div class="col-xs-4 col-sm-2"> 
+              <img src="{{image}}" class="img-circle"  width="100%" height="100px">
+            </div>
+            <div class="col-xs-8 col-sm-10">
+              <h4><strong>{{title}}</strong></h4>
+              <ul class="text-left">
+                {{#get "posts" order="published_at asc" filter="tag:{{slug}}"}}
+                  {{#foreach posts}}
+                    <li>{{title}}</li>
+                  {{/foreach}}
+                {{/get}}
+              </ul>
             </div>
           </div>
         {{/foreach}}
