@@ -371,33 +371,12 @@
   featured: false
   language: en_US
   status: published
-  slug: beneficio-1
-  title: Talleres y conferencias
-  markdown: <%= fake_sentence %>
-
-- uuid: <%= uuid %>
-  created_at: <%= Time.now %>
-  updated_at: <%= Time.now %>
-  published_at: <%= Time.now %>
-  page: false
-  featured: false
-  language: en_US
-  status: published
-  slug: beneficio-2
-  title: Infraestructura en la nube (a travéz de socios tecnológicos con IBM Y Microsoft)
-  markdown: <%= fake_sentence %>
-
-- uuid: <%= uuid %>
-  created_at: <%= Time.now %>
-  updated_at: <%= Time.now %>
-  published_at: <%= Time.now %>
-  page: false
-  featured: false
-  language: en_US
-  status: published
-  slug: beneficio-3
-  title: Acceso a laboratorios de prototipado, pasantías de estudiantes y otros servicios previstos por UTPL
-  markdown: <%= fake_sentence %>
+  slug: coworking-beneficios
+  title: Beneficios
+  markdown: |
+    - Talleres y conferencias
+    - Infraestructura en la nube (a través de socios tecnológicos con IBM Y Microsoft)
+    - Acceso a laboratorios de prototipado, pasantías de estudiantes y otros servicios previstos por UTPL
 
 # Coworking: Paquetes
 - uuid: <%= uuid %>

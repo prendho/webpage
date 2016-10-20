@@ -1,15 +1,38 @@
 .coworking-blue-wrapper
   background-color: $main-blue
+  margin-top: 20px
+  margin-bottom: 20px
+  padding-top: 20px
+  padding-bottom: 20px
+  .gallery-post.coworking-post
+    color: white
+    .post-title
+      margin-top: 20px
+      margin-bottom: 10px
   .coworking-servicios-wrapper
     ul
       direction: rtl
       list-style: none
       padding: 0
       text-align: right
-      li:before
-        content: "•"
-        color: $secondary-blue
-        padding-left: 1em
-        text-indent: -.7em
       li
-        color: white
+        padding-right: 10px
+        &:before
+          margin-right: -10px
+          content: "•"
+          color: $secondary-blue
+          padding-left: 7px
+          text-indent: -.7em
+  .coworking-beneficios-wrapper
+    ul
+      list-style: none
+      padding: 0
+      text-align: left
+      li
+        padding-left: 10px
+        &:before
+          margin-left: -10px
+          content: "•"
+          color: $secondary-blue
+          padding-right: 7px
+          text-indent: -.7em

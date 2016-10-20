@@ -81,16 +81,6 @@
 - tag_slug: actividades
   post_slug: blog-post-5
 
-# coworking: beneficios
-- tag_slug: coworking-beneficios
-  post_slug: beneficio-1
-
-- tag_slug: coworking-beneficios
-  post_slug: beneficio-2
-
-- tag_slug: coworking-beneficios
-  post_slug: beneficio-3
-
 # coworking: galeria
 - tag_slug: coworking-galeria
   post_slug: galeria-1

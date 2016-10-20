@@ -9,23 +9,15 @@
   <div class="coworking-blue-wrapper row">
     <div class="coworking-servicios-wrapper col-xs-offset-2 col-xs-8">
       {{#get "posts" filter="slug:coworking-servicios" as |item|}}
-        {{> "secondary-post" item=item}}
+        {{> "coworking-post" item=item}}
+      {{/get}}
+    </div>
+    <div class="coworking-beneficios-wrapper col-xs-offset-2 col-xs-8">
+      {{#get "posts" filter="slug:coworking-beneficios" as |item|}}
+        {{> "coworking-post" item=item}}
       {{/get}}
     </div>
   </div>
-
-    <div class="col-xs-offset-2 col-xs-8">
-      <div class="common-gallery-post text-left">
-        <h2>Beneficios</h2>
-        <ul class="text-left">
-          {{#get "posts" filter="tag:coworking-beneficios"}}
-            {{#foreach posts}}
-              <li type="disc">{{title}}</li>
-            {{/foreach}}
-          {{/get}}
-        </ul>
-      </div>
-    </div>
 
     <div class="col-xs-offset-2 col-xs-8">
       <div class="common-gallery-post">
