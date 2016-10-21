@@ -2,97 +2,79 @@
 - name: Carrusel principal
   slug: carousel-main
   description: Imágenes del carrusel principal
-  uuid: <%= uuid %>
 
 - name: Nuestros Emprendimientos
   slug: nuestros-emprendimientos
   description: Carrusel de nuestros emprendimientos en página principal
-  uuid: <%= uuid %>
 
 - name: Nuestros Aliados
   slug: nuestros-aliados
   description: Carrusel de nuestros aliados en página principal
-  uuid: <%= uuid %>
 
 # Tag: post
 - name: Post
   slug: post
   description: Agrupa a todos los post
-  uuid: <%= uuid %>
 
 # Tag: blog
 - name: Blog
   slug: blog
   description: Agrupa a todos los blog
-  uuid: <%= uuid %>
 
 # Tag: blog-categoria
 - name: Blog-category
   slug: blog-category
   description: Clasificación de los blog
-  uuid: <%= uuid %>
 
 # Tag: blog-tipo-categoria
 - name: Tecnologia
   slug: tecnologia
   description: Agrupa los post que pertenecen al campo tecnológico
-  uuid: <%= uuid %>
 
 - name: Alimentos
   slug: alimentos
   description: Agrupa los post que pertenecen al campo de alimentos
-  uuid: <%= uuid %>
 
 - name: Actividades
   slug: actividades
   description: Agrupa los post que pertenecen al campo de actividades
-  uuid: <%= uuid %>
 
 - name: Cursos
   slug: cursos
   description: Agrupa los post que pertenecen a cursos
-  uuid: <%= uuid %>
 
 - name: Coworking
   slug: coworking
   description: Agrupa los post que pertenecen al campo de trabajo
-  uuid: <%= uuid %>
 
 # Tag: coworking-galeria
 - name: Galeria
   slug: coworking-galeria
   description: Carrusel de galeria en página coworking
-  uuid: <%= uuid %>
 
 # Tag: coworking-paquetes
 - name: Paquetes
   slug: coworking-paquetes
   description: Carrusel de paquetes en página coworking
-  uuid: <%= uuid %>
 
 # Tag: emprendimientos-categorias
 - name: Emprendimiento categorias
   slug: emprendimiento-category
-  description: Clasificación de los emprendimientos
-  uuid: <%= uuid %> 
+  description: Clasificación de los emprendimientos 
 
 # Tag: emprendimientos-tipos-categorias
 - name: Agroindustrial
   slug: emprendimiento-agroindustrial
   description: Agrupa los post que pertenecen a emprendimientos del area agroindustria
-  uuid: <%= uuid %>
 
 - name: Electrónica
   slug: emprendimiento-electronica
   description: Agrupa los post que pertenecen a emprendimientos del area electrónica
-  uuid: <%= uuid %>
 
 - name: Tecnologia
   slug: emprendimiento-tecnologia
   description: Agrupa los post que pertenecen a emprendimientos del area tecnológica
-  uuid: <%= uuid %>
 
 - name: Diseño y Moda
   slug: emprendimiento-diseno-moda
   description: Agrupa los post que pertenecen a emprendimientos del area diseño y moda
-  uuid: <%= uuid %>

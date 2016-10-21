@@ -1,88 +1,32 @@
 ---
-- uuid: <%= uuid %>
-  created_at: <%= Time.now %>
-  updated_at: <%= Time.now %>
-  published_at: <%= Time.now %>
-  page: false
-  featured: false
-  language: en_US
-  status: published
-  slug: carousel-main-impulsadora
+- slug: carousel-main-impulsadora
   title: Impulsadora de empresas y emprendimientos
   markdown: 'Es una impulsadora de empresas y emprendimientos, generadora de conocimiento, innovación y desarrollo'
   image: /default/coworking-930x563.jpg
 
-- uuid: <%= uuid %>
-  created_at: <%= Time.now %>
-  updated_at: <%= Time.now %>
-  published_at: <%= Time.now %>
-  page: false
-  featured: false
-  language: en_US
-  status: published
-  slug: carousel-main-placeholder-1
+- slug: carousel-main-placeholder-1
   title: Carrusel principal placeholder 1
   markdown: <%= fake_sentence %>
   image: /default/e969513037fbcc3e068a0c231c43132ca1aa1ebe.jpeg
 
-- uuid: <%= uuid %>
-  created_at: <%= Time.now %>
-  updated_at: <%= Time.now %>
-  published_at: <%= Time.now %>
-  page: false
-  featured: false
-  language: en_US
-  status: published
-  slug: carousel-main-placeholder-2
+- slug: carousel-main-placeholder-2
   title: Carrusel principal placeholder 2
   markdown: <%= fake_sentence %>
   image: /default/The-Hive.jpg
 
-- uuid: <%= uuid %>
-  created_at: <%= Time.now %>
-  updated_at: <%= Time.now %>
-  published_at: <%= Time.now %>
-  page: false
-  featured: false
-  language: en_US
-  status: published
-  slug: emprendimientos-carousel
+- slug: emprendimientos-carousel
   title: Nuestros emprendimientos
   markdown: <%= fake_sentence %>
 
-- uuid: <%= uuid %>
-  created_at: <%= Time.now %>
-  updated_at: <%= Time.now %>
-  published_at: <%= Time.now %>
-  page: false
-  featured: false
-  language: en_US
-  status: published
-  slug: aliados-carousel
+- slug: aliados-carousel
   title: Nuestros aliados
   markdown: <%= fake_sentence %>
 
-- uuid: <%= uuid %>
-  created_at: <%= Time.now %>
-  updated_at: <%= Time.now %>
-  published_at: <%= Time.now %>
-  page: false
-  featured: false
-  language: en_US
-  status: published
-  slug: intro-post
+- slug: intro-post
   title: Emprende con nosotros
   markdown: "<%= lipsum %>"
 
-- uuid: <%= uuid %>
-  created_at: <%= Time.now %>
-  updated_at: <%= Time.now %>
-  published_at: <%= Time.now %>
-  page: false
-  featured: false
-  language: en_US
-  status: published
-  slug: contactos
+- slug: contactos
   title: Contactos
   image: /default/coworking-930x563.jpg
   markdown: |
@@ -94,247 +38,97 @@
 
     Loja - Ecuador
 
-- uuid: <%= uuid %>
-  created_at: <%= Time.now %>
-  updated_at: <%= Time.now %>
-  published_at: <%= Time.now %>
-  page: false
-  featured: false
-  language: en_US
-  status: published
-  slug: conectate-al-aire
+- slug: conectate-al-aire
   title: Conéctate al aire
   markdown: <%= fake_sentence %>
   image: /default/logo_conectate_color.png
 
-- uuid: <%= uuid %>
-  created_at: <%= Time.now %>
-  updated_at: <%= Time.now %>
-  published_at: <%= Time.now %>
-  page: false
-  featured: false
-  language: en_US
-  status: published
-  slug: aei
+- slug: aei
   title: AEI
   markdown: <%= fake_sentence %>
   image: /default/logo_AEI.png
 
-- uuid: <%= uuid %>
-  created_at: <%= Time.now %>
-  updated_at: <%= Time.now %>
-  published_at: <%= Time.now %>
-  page: false
-  featured: false
-  language: en_US
-  status: published
-  slug: fedes
+- slug: fedes
   title: fedes
   markdown: <%= fake_sentence %>
   image: /default/logo_fedes.png
 
-- uuid: <%= uuid %>
-  created_at: <%= Time.now %>
-  updated_at: <%= Time.now %>
-  published_at: <%= Time.now %>
-  page: false
-  featured: false
-  language: en_US
-  status: published
-  slug: noggalito
+- slug: noggalito
   title: noggalito
   markdown: <%= fake_sentence %>
   image: /default/logo_noggalito_color.png
 
-- uuid: <%= uuid %>
-  created_at: <%= Time.now %>
-  updated_at: <%= Time.now %>
-  published_at: <%= Time.now %>
-  page: false
-  featured: false
-  language: en_US
-  status: published
-  slug: soyard
+- slug: soyard
   title: soyard
   markdown: <%= fake_sentence %>
   image: /default/logo_soyard_color.png
 
-- uuid: <%= uuid %>
-  created_at: <%= Time.now %>
-  updated_at: <%= Time.now %>
-  published_at: <%= Time.now %>
-  page: false
-  featured: false
-  language: en_US
-  status: published
-  slug: utpl
+- slug: utpl
   title: utpl
   markdown: <%= fake_sentence %>
   image: /default/logo_utpl.png
 
 #Post
-- uuid: <%= uuid %>
-  created_at: <%= Time.now %>
-  updated_at: <%= Time.now %>
-  published_at: <%= Time.now %>
-  page: false
-  slug: post-1
+- slug: post-1
   title: <%= lipsum_small %>
-  featured: false
-  language: en_US
-  status: published
   image: /default/e969513037fbcc3e068a0c231c43132ca1aa1ebe.jpeg
   markdown: <%= lipsum %>
 
-- uuid: <%= uuid %>
-  created_at: <%= Time.now %>
-  updated_at: <%= Time.now %>
-  published_at: <%= Time.now %>
-  page: false
-  slug: post-2
+- slug: post-2
   title: <%= lipsum_small %>
-  featured: false
-  language: en_US
-  status: published
   image: /default/e969513037fbcc3e068a0c231c43132ca1aa1ebe.jpeg
   markdown: <%= lipsum %>
 
 #Blog: Post
-- uuid: <%= uuid %>
-  created_at: <%= Time.now %>
-  updated_at: <%= Time.now %>
-  published_at: <%= Time.now %>
-  page: false
-  slug: blog-post-1
+- slug: blog-post-1
   title: <%= lipsum_small %>
-  featured: false
-  language: en_US
-  status: published
   image: /default/e969513037fbcc3e068a0c231c43132ca1aa1ebe.jpeg
   markdown: <%= lipsum %>
 
 - uuid: <%= uuid %>
-  created_at: <%= Time.now %>
-  updated_at: <%= Time.now %>
-  published_at: <%= Time.now %>
-  page: false
   slug: blog-post-2
   title: <%= lipsum_small %>
-  featured: false
-  language: en_US
-  status: published
   image: /default/e969513037fbcc3e068a0c231c43132ca1aa1ebe.jpeg
   markdown: <%= lipsum %>
 
-- uuid: <%= uuid %>
-  created_at: <%= Time.now %>
-  updated_at: <%= Time.now %>
-  published_at: <%= Time.now %>
-  page: false
-  slug: blog-post-3
+- slug: blog-post-3
   title: <%= lipsum_small %>
-  featured: false
-  language: en_US
-  status: published
   image: /default/e969513037fbcc3e068a0c231c43132ca1aa1ebe.jpeg
   markdown: <%= lipsum %>
 
-- uuid: <%= uuid %>
-  created_at: <%= Time.now %>
-  updated_at: <%= Time.now %>
-  published_at: <%= Time.now %>
-  page: false
-  slug: blog-post-4
+- slug: blog-post-4
   title: <%= lipsum_small %>
-  featured: false
-  language: en_US
-  status: published
   image: /default/e969513037fbcc3e068a0c231c43132ca1aa1ebe.jpeg
   markdown: <%= lipsum %>
 
-- uuid: <%= uuid %>
-  created_at: <%= Time.now %>
-  updated_at: <%= Time.now %>
-  published_at: <%= Time.now %>
-  page: false
-  slug: blog-post-5
+- slug: blog-post-5
   title: <%= lipsum_small %>
-  featured: false
-  language: en_US
-  status: published
   image: /default/e969513037fbcc3e068a0c231c43132ca1aa1ebe.jpeg
   markdown: <%= lipsum %>
 
 # Blog: Categorias
-- uuid: <%= uuid %>
-  created_at: <%= Time.now %>
-  updated_at: <%= Time.now %>
-  published_at: <%= Time.now %>
-  page: false
-  slug: tecnologia
+- slug: tecnologia
   title: Tecnologia
-  featured: false
-  language: en_US
-  status: published
   markdown: <%= lipsum %>
 
-- uuid: <%= uuid %>
-  created_at: <%= Time.now %>
-  updated_at: <%= Time.now %>
-  published_at: <%= Time.now %>
-  page: false
-  slug: alimentos
+- slug: alimentos
   title: Alimentos
-  featured: false
-  language: en_US
-  status: published
   markdown: <%= lipsum %>
 
-- uuid: <%= uuid %>
-  created_at: <%= Time.now %>
-  updated_at: <%= Time.now %>
-  published_at: <%= Time.now %>
-  page: false
-  slug: actividades
+- slug: actividades
   title: Actividades
-  featured: false
-  language: en_US
-  status: published
   markdown: <%= lipsum %>
 
-- uuid: <%= uuid %>
-  created_at: <%= Time.now %>
-  updated_at: <%= Time.now %>
-  published_at: <%= Time.now %>
-  page: false
-  slug: cursos
+- slug: cursos
   title: Cursos
-  featured: false
-  language: en_US
-  status: published
   markdown: <%= lipsum %>
 
-- uuid: <%= uuid %>
-  created_at: <%= Time.now %>
-  updated_at: <%= Time.now %>
-  published_at: <%= Time.now %>
-  page: false
-  slug: coworking-tag
+- slug: coworking-tag
   title: Coworking
-  featured: false
-  language: en_US
-  status: published
   markdown: <%= fake_sentence %>
 
 # Coworking: Pagina
-- uuid: <%= uuid %>
-  created_at: <%= Time.now %>
-  updated_at: <%= Time.now %>
-  published_at: <%= Time.now %>
-  page: true
-  featured: false
-  language: en_US
-  status: published
+- page: true
   slug: coworking
   title: Coworking
   markdown: |
@@ -342,15 +136,7 @@
     Contamos con 48 puestos disponibles.
 
 # Coworking: Servicios coworking
-- uuid: <%= uuid %>
-  created_at: <%= Time.now %>
-  updated_at: <%= Time.now %>
-  published_at: <%= Time.now %>
-  page: false
-  featured: false
-  language: en_US
-  status: published
-  slug: coworking-servicios
+- slug: coworking-servicios
   title: Servicios Coworking
   markdown: |
     - Espacio físico
@@ -363,15 +149,7 @@
   image: /default/icono_coworking.png
 
 # Coworking: Servicios beneficios
-- uuid: <%= uuid %>
-  created_at: <%= Time.now %>
-  updated_at: <%= Time.now %>
-  published_at: <%= Time.now %>
-  page: false
-  featured: false
-  language: en_US
-  status: published
-  slug: coworking-beneficios
+- slug: coworking-beneficios
   title: Beneficios
   markdown: |
     - Talleres y conferencias
@@ -379,28 +157,12 @@
     - Acceso a laboratorios de prototipado, pasantías de estudiantes y otros servicios previstos por UTPL
 
 # Coworking: Paquetes
-- uuid: <%= uuid %>
-  created_at: <%= Time.now %>
-  updated_at: <%= Time.now %>
-  published_at: <%= Time.now %>
-  page: false
-  featured: false
-  language: en_US
-  status: published
-  slug: coworking-paquetes
+- slug: coworking-paquetes
   title: Paquetes para contratar
   markdown: <%= fake_sentence %>
 
 # Coworking: Paquetes carrusel
-- uuid: <%= uuid %>
-  created_at: <%= Time.now %>
-  updated_at: <%= Time.now %>
-  published_at: <%= Time.now %>
-  page: false
-  featured: false
-  language: en_US
-  status: published
-  slug: paquete-1
+- slug: paquete-1
   title: Paquete Villonaco
   meta_title: $65
   markdown: |
@@ -414,15 +176,7 @@
     - Infraestructura en la nube
     - Acceso al laboratorio de prototipo, pasantías de estudiantes en los emprendimientos, y otro servicios porvistos por UTLP
 
-- uuid: <%= uuid %>
-  created_at: <%= Time.now %>
-  updated_at: <%= Time.now %>
-  published_at: <%= Time.now %>
-  page: false
-  featured: false
-  language: en_US
-  status: published
-  slug: paquete-2
+- slug: paquete-2
   title: Paquete Opcional
   meta_title: $50
   markdown: |
@@ -434,290 +188,107 @@
     - Equipo de computo
 
 # Coworking: Galeria
-- uuid: <%= uuid %>
-  created_at: <%= Time.now %>
-  updated_at: <%= Time.now %>
-  published_at: <%= Time.now %>
-  page: false
-  featured: false
-  language: en_US
-  status: published
-  slug: coworking-galeria
+- slug: coworking-galeria
   title: Galeria
   markdown: <%= fake_sentence %>
 
 # Coworking: Galeria carrusel
-- uuid: <%= uuid %>
-  created_at: <%= Time.now %>
-  updated_at: <%= Time.now %>
-  published_at: <%= Time.now %>
-  page: false
-  featured: false
-  language: en_US
-  status: published
-  slug: galeria-1
+- slug: galeria-1
   title: Galeria 1
   markdown: <%= fake_sentence %>
   image: http://placehold.it/350x150?text=galeria+1
 
-- uuid: <%= uuid %>
-  created_at: <%= Time.now %>
-  updated_at: <%= Time.now %>
-  published_at: <%= Time.now %>
-  page: false
-  featured: false
-  language: en_US
-  status: published
-  slug: galeria-2
+- slug: galeria-2
   title: Galeria 2
   markdown: <%= fake_sentence %>
   image: http://placehold.it/350x150?text=galeria+2
 
-- uuid: <%= uuid %>
-  created_at: <%= Time.now %>
-  updated_at: <%= Time.now %>
-  published_at: <%= Time.now %>
-  page: false
-  featured: false
-  language: en_US
-  status: published
-  slug: galeria-3
+- slug: galeria-3
   title: Galeria 3
   markdown: <%= fake_sentence %>
   image: http://placehold.it/350x150?text=galeria+3
 
-- uuid: <%= uuid %>
-  created_at: <%= Time.now %>
-  updated_at: <%= Time.now %>
-  published_at: <%= Time.now %>
-  page: false
-  featured: false
-  language: en_US
-  status: published
-  slug: galeria-4
+- slug: galeria-4
   title: Galeria 4
   markdown: <%= fake_sentence %>
   image: http://placehold.it/350x150?text=galeria+4
 
 # Emprendimientos: Pagina
-- uuid: <%= uuid %>
-  created_at: <%= Time.now %>
-  updated_at: <%= Time.now %>
-  published_at: <%= Time.now %>
-  page: true
-  featured: false
-  language: en_US
-  status: published
+- page: true
   slug: emprendimientos
   title: Emprendimientos
   markdown:  <%= fake_sentence %>
-   
+
 # Emprendimiento: Categorias
-- uuid: <%= uuid %>
-  created_at: <%= Time.now %>
-  updated_at: <%= Time.now %>
-  published_at: <%= Time.now %>
-  page: false
-  featured: false
-  language: en_US
-  status: published
-  slug: emprendimiento-agroindustrial
+- slug: emprendimiento-agroindustrial
   title: Agroindustrial
   markdown: <%= fake_sentence %>
   image: /default/icono_agroid.png
 
-- uuid: <%= uuid %>
-  created_at: <%= Time.now %>
-  updated_at: <%= Time.now %>
-  published_at: <%= Time.now %>
-  page: false
-  featured: false
-  language: en_US
-  status: published
-  slug: emprendimiento-electronica
+- slug: emprendimiento-electronica
   title: Electrónica
   markdown: <%= fake_sentence %>
   image: /default/icono_elec.png
 
-- uuid: <%= uuid %>
-  created_at: <%= Time.now %>
-  updated_at: <%= Time.now %>
-  published_at: <%= Time.now %>
-  page: false
-  featured: false
-  language: en_US
-  status: published
-  slug: emprendimiento-tecnologia
+- slug: emprendimiento-tecnologia
   title: Tecnologia
   markdown: <%= fake_sentence %>
   image: /default/icono_tecno.png
 
-- uuid: <%= uuid %>
-  created_at: <%= Time.now %>
-  updated_at: <%= Time.now %>
-  published_at: <%= Time.now %>
-  page: false
-  featured: false
-  language: en_US
-  status: published
-  slug: emprendimiento-diseno-moda
+- slug: emprendimiento-diseno-moda
   title: Diseño y Moda
   markdown: <%= fake_sentence %>
   image: /default/iconi_disymoda.png
 
 # Emprendimiento: Blog
-- uuid: <%= uuid %>
-  created_at: <%= Time.now %>
-  updated_at: <%= Time.now %>
-  published_at: <%= Time.now %>
-  page: false
-  featured: false
-  language: en_US
-  status: published
-  slug: emprendimiento-1
+- slug: emprendimiento-1
   title: Integrales de Oro
   markdown: <%= fake_sentence %>
 
-- uuid: <%= uuid %>
-  created_at: <%= Time.now %>
-  updated_at: <%= Time.now %>
-  published_at: <%= Time.now %>
-  page: false
-  featured: false
-  language: en_US
-  status: published
-  slug: emprendimiento-2
+- slug: emprendimiento-2
   title: Sorayd
   markdown: <%= fake_sentence %>
 
-- uuid: <%= uuid %>
-  created_at: <%= Time.now %>
-  updated_at: <%= Time.now %>
-  published_at: <%= Time.now %>
-  page: false
-  featured: false
-  language: en_US
-  status: published
-  slug: emprendimiento-3
+- slug: emprendimiento-3
   title: Conservas Don Felix
   markdown: <%= fake_sentence %>
 
-- uuid: <%= uuid %>
-  created_at: <%= Time.now %>
-  updated_at: <%= Time.now %>
-  published_at: <%= Time.now %>
-  page: false
-  featured: false
-  language: en_US
-  status: published
-  slug: emprendimiento-4
+- slug: emprendimiento-4
   title: Iwia Guayusa
   markdown: <%= fake_sentence %>
 
-- uuid: <%= uuid %>
-  created_at: <%= Time.now %>
-  updated_at: <%= Time.now %>
-  published_at: <%= Time.now %>
-  page: false
-  featured: false
-  language: en_US
-  status: published
-  slug: emprendimiento-5
+- slug: emprendimiento-5
   title: Casillero
   markdown: <%= fake_sentence %>
 
-- uuid: <%= uuid %>
-  created_at: <%= Time.now %>
-  updated_at: <%= Time.now %>
-  published_at: <%= Time.now %>
-  page: false
-  featured: false
-  language: en_US
-  status: published
-  slug: emprendimiento-6
+- slug: emprendimiento-6
   title: Kradac
   markdown: <%= fake_sentence %>
 
-- uuid: <%= uuid %>
-  created_at: <%= Time.now %>
-  updated_at: <%= Time.now %>
-  published_at: <%= Time.now %>
-  page: false
-  featured: false
-  language: en_US
-  status: published
-  slug: emprendimiento-7
+- slug: emprendimiento-7
   title: Sec Electrictelecom
   markdown: <%= fake_sentence %>
 
-- uuid: <%= uuid %>
-  created_at: <%= Time.now %>
-  updated_at: <%= Time.now %>
-  published_at: <%= Time.now %>
-  page: false
-  featured: false
-  language: en_US
-  status: published
-  slug: emprendimiento-8
+- slug: emprendimiento-8
   title: Conéctate al Aire
   markdown: <%= fake_sentence %>
 
-- uuid: <%= uuid %>
-  created_at: <%= Time.now %>
-  updated_at: <%= Time.now %>
-  published_at: <%= Time.now %>
-  page: false
-  featured: false
-  language: en_US
-  status: published
-  slug: emprendimiento-9
+- slug: emprendimiento-9
   title: Cid Secure
   markdown: <%= fake_sentence %>
 
-- uuid: <%= uuid %>
-  created_at: <%= Time.now %>
-  updated_at: <%= Time.now %>
-  published_at: <%= Time.now %>
-  page: false
-  featured: false
-  language: en_US
-  status: published
-  slug: emprendimiento-10
+- slug: emprendimiento-10
   title: SetProject
   markdown: <%= fake_sentence %>
 
-- uuid: <%= uuid %>
-  created_at: <%= Time.now %>
-  updated_at: <%= Time.now %>
-  published_at: <%= Time.now %>
-  page: false
-  featured: false
-  language: en_US
-  status: published
-  slug: emprendimiento-11
+- slug: emprendimiento-11
   title: Noggalito
   markdown: <%= fake_sentence %>
 
-- uuid: <%= uuid %>
-  created_at: <%= Time.now %>
-  updated_at: <%= Time.now %>
-  published_at: <%= Time.now %>
-  page: false
-  featured: false
-  language: en_US
-  status: published
-  slug: emprendimiento-12
+- slug: emprendimiento-12
   title: Aprendizaje Libre
   markdown: <%= fake_sentence %>
 
-- uuid: <%= uuid %>
-  created_at: <%= Time.now %>
-  updated_at: <%= Time.now %>
-  published_at: <%= Time.now %>
-  page: false
-  featured: false
-  language: en_US
-  status: published
-  slug: emprendimiento-13
+- slug: emprendimiento-13
   title: Meets
   markdown: <%= fake_sentence %>
