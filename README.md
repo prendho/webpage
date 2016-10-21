@@ -7,6 +7,7 @@ built using [ghost](https://ghost.org)
 ```
 $ npm install -g gulp
 $ npm install
+$ gulp # so that DB gets created
 ```
 
 ### seeding DB
