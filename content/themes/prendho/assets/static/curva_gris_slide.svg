@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.0" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="47 212.4 936 170.9" style="enable-background:new 47 212.4 936 170.9;" xml:space="preserve">
+<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="-867 212.4 936 170.9" style="enable-background:new -867 212.4 936 170.9;" xml:space="preserve">
 <style type="text/css">
-	.st0{fill:#E6E6E6;}
+	.st0{fill:#FFFFFF;}
+	.st1{fill:#E6E6E6;}
 </style>
-<g id="XMLID_4_">
-	<path id="XMLID_5_" class="st0" d="M983,274.9v-62.5C718.7,310.1,396.6,371.2,47,380.5C393.5,394.5,715,354.9,983,274.9z"/>
-</g>
+<path class="st0" d="M-867,380.5v2.8H69V274.9C-199,354.9-520.5,394.5-867,380.5z"/>
+<path class="st1" d="M69,274.9v-62.5c-264.3,97.7-586.4,158.8-936,168.1C-520.5,394.5-199,354.9,69,274.9z"/>
 </svg>
