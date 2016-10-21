@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'ghost-seeder', '~> 0.0.3'
+gem 'ghost-seeder', '~> 0.0.4'
 
 group :development do
   gem 'sqlite3'
