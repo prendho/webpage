@@ -1,8 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'activerecord', '~> 4.2'
-gem 'colorize', '~> 0.8'
-gem 'faker', '~> 1.6'
+gem 'ghost-seeder'
 
 group :development do
   gem 'sqlite3'

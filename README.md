@@ -30,7 +30,7 @@ bundler (1.13.0)
 bundle and seed:
 ```
 $ bundle install --without staging production
-$ ./seed.rb
+$ rake db:seed
 ```
 
 ## development
