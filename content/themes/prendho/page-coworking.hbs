@@ -7,40 +7,35 @@
   </div>
 
   <div class="coworking-blue-wrapper row">
-    <div class="coworking-servicios-wrapper col-xs-offset-2 col-xs-8">
+    <div class="coworking-servicios-wrapper col-xs-offset-2 col-xs-8 col-sm-offset-1 col-sm-6 col-md-offset-2 col-md-5">
       {{#get "posts" filter="slug:coworking-servicios" as |item|}}
         {{> "coworking-post" item=item}}
       {{/get}}
     </div>
-    <div class="coworking-beneficios-wrapper col-xs-offset-2 col-xs-8">
+    <div class="coworking-beneficios-wrapper col-xs-offset-2 col-xs-8 col-sm-4 col-md-3 col-sm-offset-0">
       {{#get "posts" filter="slug:coworking-beneficios" as |item|}}
         {{> "coworking-post" item=item}}
       {{/get}}
     </div>
   </div>
 
+  <div class="row">
     <div class="col-xs-offset-2 col-xs-8">
-      <div class="common-gallery-post">
-        {{#get "posts" filter="slug:coworking-paquetes" as |item|}}
-          {{> "common-gallery-post" item=item}}
-        {{/get}}
-        <div class="responsive-carousel">
-          {{#get "posts" filter="tag:coworking-paquetes" as |items|}}
-            {{#foreach items}}
-              <div class="item">
-                <h5><strong>{{title}}</strong></h5>
-                <fieldset>
-                  <legend><img src="{{asset "static/icono_paquete_villonaco.png"}}"></legend>
-                  <h2>{{meta_title}}</h2>
-                  <div class="text-justify">{{content}}</div>
-                </fieldset>
-              </div>
-            {{/foreach}}
-          {{/get}}
-        </div>
-      </div>
+      {{#get "posts" filter="slug:coworking-paquetes" as |item|}}
+        {{> "common-gallery-post" item=item}}
+      {{/get}}
     </div>
+  </div>
 
+  <div class="responsive-carousel">
+    {{#get "posts" filter="tag:coworking-paquetes" as |items|}}
+      {{#foreach items as |item|}}
+        {{> "coworking-paquete" item=item}}
+      {{/foreach}}
+    {{/get}}
+  </div>
+
+  <div class="row">
     <div class="post-gallery col-xs-8 col-xs-offset-2 col-sm-10 col-sm-offset-1 col-md-offset-2 col-md-8">
       {{#get "posts" filter="slug:coworking-galeria" as |item|}}
         {{> "common-gallery-post" item=item}}
