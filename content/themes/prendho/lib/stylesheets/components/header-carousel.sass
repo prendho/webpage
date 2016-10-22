@@ -3,15 +3,18 @@ $smMinCaptionPadding: -400px
 
 #header-carousel
   position: relative
+  overflow: hidden
+  .item--mask
+    width: 75%
+    background-image: url('../static/circulos_header.png')
+    height: 170px
+    position: absolute
+    background-size: contain
+    background-repeat: no-repeat
+    z-index: 1
+
   .item
     position: relative
-    .item--mask
-      width: 75%
-      background-image: url('../static/circulos_header.png')
-      height: 170px
-      position: absolute
-      background-size: contain
-      background-repeat: no-repeat
     .img-responsive
       min-height: 380px
       background-size: cover
@@ -21,7 +24,6 @@ $smMinCaptionPadding: -400px
         min-height: 440px
       @media (min-width: $screen-sm-min)
         min-height: 540px
-
     .caption
       font-family: OxygenLight
       position: absolute
