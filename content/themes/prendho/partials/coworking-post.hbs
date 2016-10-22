@@ -1,11 +1,16 @@
 {{#item}}
   <div class="gallery-post coworking-post">
-    <div class="post-title">
-      <h2>{{title}}</h2>
+    <div class="content">
+      <div class="post-title">
+        <h2>{{title}}</h2>
+      </div>
+      {{content}}
     </div>
-    {{content}}
+
     {{#if image}}
-      <img src="{{image}}">
+      <div class="coworking-image">
+        <img src="{{image}}">
+      </div>
     {{/if}}
   </div>
 {{/item}}
