@@ -4,6 +4,7 @@
     {{#get "posts" filter="tag:carousel-main" as |items|}}
       {{#foreach items}}
         <div class="item">
+          <div class="item--mask"></div>
           <div style="background-image: url('{{image}}')" class="img-responsive"></div>
           <div class="caption">{{content}}</div>
         </div>
