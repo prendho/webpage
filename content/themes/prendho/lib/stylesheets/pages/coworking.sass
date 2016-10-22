@@ -6,10 +6,27 @@
   padding-bottom: 20px
   .gallery-post.coworking-post
     color: white
+    font-family: OxygenLight
+    font-size: 17px
+    @media (min-width: $screen-sm-min)
+      font-size: 22px
     .post-title
       margin-top: 20px
       margin-bottom: 10px
+      font-family: CityLight
+      font-size: 30px
+      @media (min-width: $screen-sm-min)
+        font-size: 35px
+
+  .coworking-servicios-wrapper, .coworking-beneficios-wrapper
+    @media (max-width: $screen-xs-max)
+      padding-left: 0
+      padding-right: 0
+
   .coworking-servicios-wrapper
+    @media (max-width: $screen-xs-max)
+      h2
+        text-align: right
     ul
       direction: rtl
       list-style: none
@@ -24,6 +41,9 @@
           padding-left: 7px
           text-indent: -.7em
   .coworking-beneficios-wrapper
+    @media (max-width: $screen-xs-max)
+      h2
+        text-align: left
     ul
       list-style: none
       padding: 0
