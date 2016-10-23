@@ -7,5 +7,8 @@
 - url: '/emprendimientos/'
   label: 'Emprendimientos'
 
+- url: '/asesoria/'
+  label: 'Asesoría'
+
 - url: '/tag/blog/'
   label: 'Blog'

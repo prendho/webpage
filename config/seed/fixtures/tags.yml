@@ -48,8 +48,8 @@
   description: Agrupa los post que pertenecen al campo de trabajo
 
 # Tag: coworking-galeria
-- name: Galeria
-  slug: coworking-galeria
+- name: Carrusel de Galeria
+  slug: coworking-galeria-carrusel
   description: Carrusel de galeria en página coworking
 
 # Tag: coworking-paquetes
@@ -78,3 +78,13 @@
 - name: Diseño y Moda
   slug: emprendimiento-diseno-moda
   description: Agrupa los post que pertenecen a emprendimientos del area diseño y moda
+
+# Tag: asesoria-procesos-incubación
+- name: Procesos de incubación
+  slug: asesoria-procesos-incubacion
+  description: Agrupa los post que pertenecen al proceso de incubación para la página de asesoría
+
+# Tag: asesoria-laboratorios-carrusel
+- name: Carrusel de Laboratorios
+  slug: laboratorios-carrusel
+  description: Carrusel de laboratorios para la página de asesoria
