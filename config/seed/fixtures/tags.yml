@@ -48,7 +48,7 @@
   description: Agrupa los post que pertenecen al campo de trabajo
 
 # Tag: coworking-galeria
-- name: Carrusel de Galeria
+- name: Carrusel de Galería de Coworking
   slug: coworking-galeria-carrusel
   description: Carrusel de galeria en página coworking
 
