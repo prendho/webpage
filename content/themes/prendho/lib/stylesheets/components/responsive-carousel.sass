@@ -1,20 +1,47 @@
 .responsive-carousel
   position: relative
+  margin-top: 80px
   .item
-    padding: 20px 10px
+    margin: 20px 10px
+    position: relative
     @media (min-width: $screen-sm-min)
-      padding-left: 30px
-      padding-right: 30px
+      margin: 20px 15px
     .img-responsive
-      height: 130px
+      height: 200px
       background-repeat: no-repeat
-      background-size: contain
+      background-size: cover
       background-position: 50%
+
+      +on-medium-devices
+        height: 180px
+      +on-large-devices
+        height: 250px
+      +on-x-large-devices
+        height: 280px
+
+    &-title
+      position: absolute
+      bottom: 0
+      left: 0
+      width: 100%
+      background-color: rgba($silver, 0.8)
+      padding: 0 20px
+      h4
+        color: white
+        text-align: left
+        font-family: OxygenLight
   .glyphicon
     position: absolute
-    top: 70px
-    &::before
-      font-size: 22px
+    top: 50%
+    transform: translateY(-50%)
+    color: $silver
+    font-size: 22px
+    cursor: pointer
+    transition: 0.2s ease
+    +on-medium-devices
+      font-size: 30px
+    &:hover
+      color: darken($silver, 20%)
   .glyphicon-menu-left
     left: -35px
   .glyphicon-menu-right

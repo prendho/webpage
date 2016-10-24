@@ -1,0 +1,111 @@
+.consultingSection
+  padding: 60px 0
+  .gallery-post
+    margin-bottom: 60px
+
+.processSection
+  padding: 80px 0 0
+  background-color: $resolution-blue
+  #curveDownColor
+    margin-top: 40px
+    background-color: white
+    position: relative
+    bottom: -7px
+    height: 50px
+    path
+      fill: $resolution-blue
+
+    +on-medium-devices
+      height: 100px
+      bottom: -10px
+
+    +on-x-large-devices
+      height: 140px
+  &-content
+    width: 100%
+    flex-flow: column
+    &-features
+      margin: 80px auto
+      display: flex
+      flex-flow: column
+
+      +on-medium-devices
+        flex-flow: row
+      .step
+        color: white
+        position: relative
+        flex: 1
+        flex-flow: column
+        margin-bottom: 40px
+
+        +on-medium-devices
+          margin-bottom: 80px
+        &::after, &::before
+          content: ''
+          width: 10%
+          height: 6px
+          background-color: #0A3375
+          z-index: 0
+          position: absolute
+          transform: rotate(90deg)
+        &::after
+          top: 58.5%
+        &::before
+          top: -10px
+        &:first-child
+          &::before
+            content: none
+        &:last-child
+          &::after
+            content: none
+
+        +on-medium-devices
+          &::before, &::after
+            transform: rotate(0)
+            width: 40%
+            top: 31.5%
+            height: 4px
+          &::after
+            left: 50%
+          &::before
+            right: 50%
+
+        &-title
+          font-size: responsive 18px 16px
+
+        &-image
+          margin-bottom: 20px
+          z-index: 1
+          position: relative
+          background-color: $resolution-blue
+          border-radius: 100%
+          +only-on-small-devices
+            margin-bottom: 35px
+            width: 120px
+          +on-medium-devices
+            width: 100px
+        &-arrow
+          transform: rotate(360deg)
+          width: 25px
+
+          +on-medium-devices
+            width: auto
+            transform: rotate(-90deg) translateY(-50%)
+            position: absolute 25% -10% auto auto
+
+  .gallery-post
+    .post-title h2
+      color: $curious-blue
+    *
+      color: white
+
+.carouselSection
+  padding: 120px 0
+
+.btn-primary
+  transition: 0.2s ease-in-out
+  &.inverted
+    color: $resolution-blue
+    background-color: white
+    &:hover
+      background-color: darken(white, 15%)
