@@ -3,9 +3,17 @@
   <div class="row">
     <div class="col-xs-offset-2 col-xs-8 text-left">
       <ol class="breadcrumb">
-        <li><h3><a href="/tag/blog/">Blog</a></h3></li>
+        <li>
+          <h3>
+            <img src="{{asset "static/ico_blog.png"}}"> 
+            <a href="/tag/blog/">Blog</a>
+          </h3>
+        </li>
         {{#tag}}
-          <li><a  id="{{slug}}" href="/tag/{{slug}}/">{{name}}</a></li>
+          <li>
+            <img src="{{asset "static/ico_nav_blog.png"}}">
+            <a id="{{slug}}" href="/tag/{{slug}}/">{{name}}</a>
+          </li>
         {{/tag}}
       </ol>
     </div>

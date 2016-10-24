@@ -188,8 +188,8 @@
     - Equipo de computo
 
 # Coworking: Galeria
-- slug: coworking-galeria
-  title: Galeria
+- slug: coworking-galeria-carrusel
+  title: Galeria Coworking
   markdown: <%= fake_sentence %>
 
 # Coworking: Galeria carrusel
@@ -241,54 +241,105 @@
   image: /default/iconi_disymoda.png
 
 # Emprendimiento: Blog
-- slug: emprendimiento-1
+- slug: integrales-de-oro
   title: Integrales de Oro
   markdown: <%= fake_sentence %>
 
-- slug: emprendimiento-2
-  title: Sorayd
-  markdown: <%= fake_sentence %>
-
-- slug: emprendimiento-3
+- slug: conservas-don-felix
   title: Conservas Don Felix
   markdown: <%= fake_sentence %>
 
-- slug: emprendimiento-4
+- slug: iwia-guayusa
   title: Iwia Guayusa
   markdown: <%= fake_sentence %>
 
-- slug: emprendimiento-5
+- slug: casillero
   title: Casillero
   markdown: <%= fake_sentence %>
 
-- slug: emprendimiento-6
+- slug: kradac
   title: Kradac
   markdown: <%= fake_sentence %>
 
-- slug: emprendimiento-7
+- slug: sec-electrictelecom
   title: Sec Electrictelecom
   markdown: <%= fake_sentence %>
 
-- slug: emprendimiento-8
-  title: Conéctate al Aire
-  markdown: <%= fake_sentence %>
-
-- slug: emprendimiento-9
+- slug: cid-secure
   title: Cid Secure
   markdown: <%= fake_sentence %>
 
-- slug: emprendimiento-10
+- slug: set-project
   title: SetProject
   markdown: <%= fake_sentence %>
 
-- slug: emprendimiento-11
-  title: Noggalito
-  markdown: <%= fake_sentence %>
-
-- slug: emprendimiento-12
+- slug: aprendizaje-libre
   title: Aprendizaje Libre
   markdown: <%= fake_sentence %>
 
-- slug: emprendimiento-13
+- slug: meets
   title: Meets
   markdown: <%= fake_sentence %>
+
+# Asesoria: Pagina
+- page: true
+  slug: asesoria
+  title: Asesoria
+  markdown:  <%= fake_sentence %>
+
+# Asesoria: Proceso
+- slug: asesoria-procesos-incubacion
+  title: Proceso de incubación
+  markdown: <%= fake_sentence %>
+
+# Asesoria: Procesos
+- slug: asesoria-proceso-1
+  title: Laboratorio de Ideas
+  markdown: <%= fake_sentence %>
+  image: /default/proceso01_ideas.png
+
+- slug: asesoria-proceso-2
+  title: Preincubación
+  markdown: <%= fake_sentence %>
+  image: /default/proceso02_preincubacion.png
+
+- slug: asesoria-proceso-3
+  title: Incubación
+  markdown: <%= fake_sentence %>
+  image: /default/proceso03_incubacion.png
+
+- slug: asesoria-proceso-4
+  title: Aceleración
+  markdown: <%= fake_sentence %>
+  image: /default/proceso04_aceleracion.png
+
+- slug: asesoria-proceso-5
+  title: Graduación
+  markdown: <%= fake_sentence %>
+  image: /default/proceso05_graduacion.png
+
+# Asesoria: Laboratorio
+- slug: laboratorios-carrusel
+  title: Laboratorios de prototipado
+  markdown: <%= fake_sentence %>
+
+# Asesoria: Laboratorios carrusel
+- slug: laboratorio-1
+  title: Laboratorio 1
+  markdown: <%= fake_sentence %>
+  image: http://placehold.it/350x150?text=laboratorio+1
+
+- slug: laboratorio-2
+  title: Laboratorio 2
+  markdown: <%= fake_sentence %>
+  image: http://placehold.it/350x150?text=laboratorio+2
+
+- slug: laboratorio-3
+  title: Laboratorio 3
+  markdown: <%= fake_sentence %>
+  image: http://placehold.it/350x150?text=laboratorio+3
+
+- slug: laboratorio-4
+  title: Laboratorio 4
+  markdown: <%= fake_sentence %>
+  image: http://placehold.it/350x150?text=laboratorio+4

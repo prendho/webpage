@@ -37,11 +37,11 @@
 
   <div class="row">
     <div class="post-gallery col-xs-8 col-xs-offset-2 col-sm-10 col-sm-offset-1 col-md-offset-2 col-md-8">
-      {{#get "posts" filter="slug:coworking-galeria" as |item|}}
+      {{#get "posts" filter="slug:coworking-galeria-carrusel" as |item|}}
         {{> "common-gallery-post" item=item}}
       {{/get}}
       <div class="responsive-carousel">
-        {{#get "posts" filter="tag:coworking-galeria" as |items|}}
+        {{#get "posts" filter="tag:coworking-galeria-carrusel" as |items|}}
           {{> "carousel-items" items=items}}
         {{/get}}
       </div>

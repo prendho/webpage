@@ -82,16 +82,16 @@
   post_slug: blog-post-5
 
 # coworking: galeria
-- tag_slug: coworking-galeria
+- tag_slug: coworking-galeria-carrusel
   post_slug: galeria-1
 
-- tag_slug: coworking-galeria
+- tag_slug: coworking-galeria-carrusel
   post_slug: galeria-2
 
-- tag_slug: coworking-galeria
+- tag_slug: coworking-galeria-carrusel
   post_slug: galeria-3
 
-- tag_slug: coworking-galeria
+- tag_slug: coworking-galeria-carrusel
   post_slug: galeria-4
 
 # coworking: paquetes
@@ -116,40 +116,69 @@
 
 # tag:emprendimientos
 - tag_slug: emprendimiento-agroindustrial
-  post_slug: emprendimiento-1
+  post_slug: integrales-de-oro
 
 - tag_slug: emprendimiento-agroindustrial
-  post_slug: emprendimiento-2
+  post_slug: soyard
   
 - tag_slug: emprendimiento-agroindustrial
-  post_slug: emprendimiento-3
+  post_slug: conservas-don-felix
 
 - tag_slug: emprendimiento-agroindustrial
-  post_slug: emprendimiento-4
+  post_slug: iwia-guayusa
 
 - tag_slug: emprendimiento-agroindustrial
-  post_slug: emprendimiento-5
+  post_slug: casillero
   
 - tag_slug: emprendimiento-electronica
-  post_slug: emprendimiento-6
+  post_slug: kradac
 
 - tag_slug: emprendimiento-electronica
-  post_slug: emprendimiento-7
+  post_slug: sec-electrictelecom
 
 - tag_slug: emprendimiento-electronica
-  post_slug: emprendimiento-8
+  post_slug: conectate-al-aire
   
 - tag_slug: emprendimiento-tecnologia
-  post_slug: emprendimiento-9
+  post_slug: cid-secure
 
 - tag_slug: emprendimiento-tecnologia
-  post_slug: emprendimiento-10
+  post_slug: set-project
 
 - tag_slug: emprendimiento-tecnologia
-  post_slug: emprendimiento-11
+  post_slug: noggalito
   
 - tag_slug: emprendimiento-tecnologia
-  post_slug: emprendimiento-12
+  post_slug: aprendizaje-libre
 
 - tag_slug: emprendimiento-diseno-moda
-  post_slug: emprendimiento-13
+  post_slug: meets
+
+# Asesoria: procesos-incubación
+- tag_slug: asesoria-procesos-incubacion
+  post_slug: asesoria-proceso-1
+
+- tag_slug: asesoria-procesos-incubacion
+  post_slug: asesoria-proceso-2
+
+- tag_slug: asesoria-procesos-incubacion
+  post_slug: asesoria-proceso-3
+
+- tag_slug: asesoria-procesos-incubacion
+  post_slug: asesoria-proceso-4
+
+- tag_slug: asesoria-procesos-incubacion
+  post_slug: asesoria-proceso-5
+
+# Asesoria: laboratorios
+- tag_slug: laboratorios-carrusel
+  post_slug: laboratorio-1
+
+- tag_slug: laboratorios-carrusel
+  post_slug: laboratorio-2
+
+- tag_slug: laboratorios-carrusel
+  post_slug: laboratorio-3
+
+- tag_slug: laboratorios-carrusel
+  post_slug: laboratorio-4

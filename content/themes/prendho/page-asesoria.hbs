@@ -1,0 +1,45 @@
+{{!< default}}
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-xs-offset-2 col-xs-8 col-sm-10 col-sm-offset-1 col-md-offset-2 col-md-8">
+      {{> "common-gallery-post" item=post}}
+      <a href="#" class="btn btn-lg btn-primary intro-cta-btn">conoce más</a>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-xs-offset-2 col-xs-8 col-sm-10 col-sm-offset-1 col-md-offset-2 col-md-8">
+      {{#get "posts" filter="slug:asesoria-procesos-incubacion" as |item|}}
+        {{> "common-gallery-post" item=item}}
+      {{/get}}
+      <div class="row">
+        {{#get "posts" filter="tag:asesoria-procesos-incubacion" order="published_at asc"}}
+          {{#foreach posts}}
+            <div class="col-xs-12">
+              <img src="{{image}}">
+              <p>{{title}}</p>
+              {{#if @last}}
+                <a href="#" class="btn btn-lg btn-primary">Infórmate</a>
+              {{else}}
+                <img src="{{asset "static/flechas_proces.png"}}">
+              {{/if}}
+            </div>
+          {{/foreach}}
+        {{/get}}
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="post-gallery col-xs-8 col-xs-offset-2 col-sm-10 col-sm-offset-1 col-md-offset-2 col-md-8">
+      {{#get "posts" filter="slug:laboratorios-carrusel" as |item|}}
+        {{> "common-gallery-post" item=item}}
+      {{/get}}
+      <div class="responsive-carousel">
+        {{#get "posts" filter="tag:laboratorios-carrusel" as |items|}}
+          {{> "carousel-items" items=items}}
+        {{/get}}
+      </div>
+    </div>
+  </div>
+</div>
