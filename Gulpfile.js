@@ -8,6 +8,7 @@ var gulp         = require('gulp'),
     map          = require('vinyl-map'),
     concatJs     = require('gulp-concat'),
     uglify       = require('gulp-uglify'),
+    rucksack     = require('gulp-rucksack'),
     server       = require('gulp-express');
 
 gulp.task('sass', function () {
@@ -18,6 +19,7 @@ gulp.task('sass', function () {
 
   return gulp.src('content/themes/' + theme + '/lib/stylesheets/application.sass')
     .pipe(sass({optionStyle: "compressed"}).on('error', sass.logError))
+    .pipe(rucksack())
     .pipe(concatCss('application.css'))
     .pipe(autoprefixer({
       cascade: true
