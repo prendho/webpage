@@ -1,0 +1,24 @@
+//ALIGN Y
+$align-y: ("top": flex-start, "bottom": flex-end, "middle": center)
+
+// ALIGN X
+$align-x: ("left": flex-start, "center": center, "right": flex-end, "justify": space-between, "spaced": space-around)
+
+.display-flex
+  display: flex
+  flex-flow: row wrap
+
+@each $y, $value in $align-y
+  .align-#{$y}
+    @extend .display-flex
+    align-items: #{$value}
+
+@each $x, $value in $align-x
+  .align-#{$x}
+    @extend .display-flex
+    justify-content: #{$value}
+
+    @if ($x == justify or $x == spaced)
+      position: relative
+      &::after, &::before
+        content: none

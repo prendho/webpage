@@ -1,0 +1,19 @@
+//MOBILE
+=only-on-small-devices
+  @media screen and (max-width: $screen-xs-max)
+    @content
+
+// TABLET
+=on-medium-devices
+  @media (min-width: $screen-sm-min)
+    @content
+
+// DESKTOP
+=on-large-devices
+  @media (min-width: $screen-md-min)
+    @content
+
+// DESTOP LARGE
+=on-x-large-devices
+  @media (min-width: $screen-lg-min)
+    @content

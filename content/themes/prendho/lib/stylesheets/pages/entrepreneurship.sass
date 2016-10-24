@@ -1,0 +1,55 @@
+.entrepreneurship
+  &-categories
+    padding: 80px 0px 60px
+    display: flex
+    flex-flow: column
+
+    +on-medium-devices
+      flex-flow: row wrap
+
+  &-category
+    display: flex
+    min-height: 250px
+    position: relative
+    width: 100%
+    padding: 0 15px
+
+    +on-medium-devices
+      width: 50%
+    .image
+      width: 120px
+      position: absolute
+      top: 50%
+      left: 0
+      transform: translateY(-50%)
+      background-color: white
+      border-radius: 100%
+      border: 10px solid white
+
+      +on-medium-devices
+        left: 30px
+        width: 140px
+      img
+        width: 100%
+
+    .info
+      width: 80%
+      margin-bottom: 20px
+      padding: 7px 7px 7px 14px
+      border: 2px solid $mercury
+      box-sizing: border-box
+      min-height: 200px
+      border-radius: 2px
+
+      +on-medium-devices
+        padding: 20px 20px 20px 40px
+        width: 75%
+      &-content
+        .title
+          font-family: OxygenBold
+          font-size: responsive 20px 22px
+          color: $tundora
+        .text-content
+          font-family: OxygenLight
+          font-size: responsive 14px 16px
+          color: $dove-gray
