@@ -1,0 +1,62 @@
+.consultingSection
+  padding: 60px 0
+  .gallery-post
+    margin-bottom: 60px
+
+.processSection
+  padding: 80px 0
+  background-color: $resolution-blue
+  &-content
+    width: 100%
+    flex-flow: column
+    &-features
+      margin: 80px auto
+      display: flex
+      flex-flow: row
+      .step
+        color: white
+        position: relative
+        flex: 1
+        flex-flow: column
+        &::before, &::after
+          content: ''
+          width: 40%
+          height: 4px
+          background-color: #0A3375
+          z-index: 0
+          position: absolute
+          top: 31.5%
+        &::after
+          left: 50%
+        &::before
+          right: 50%
+        &:last-child
+          &::after
+            content: none
+        &:first-child
+          &::before
+            content: none
+
+        &-image
+          margin-bottom: 20px
+          z-index: 1
+          position: relative
+          background-color: $resolution-blue
+          border-radius: 100%
+        &-arrow
+          transform: rotate(-90deg) translateY(-50%)
+          position: absolute 25% -10% auto auto
+
+  .gallery-post
+    .post-title h2
+      color: $curious-blue
+    *
+      color: white
+
+.btn-primary
+  transition: 0.2s ease-in-out
+  &.inverted
+    color: $resolution-blue
+    background-color: white
+    &:hover
+      background-color: darken(white, 15%)
