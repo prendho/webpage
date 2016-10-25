@@ -1,18 +1,14 @@
-<fieldset>
-  <legend class="text-left"><h3>Recent Post</h3></legend>
+<fieldset class="text-left">
+  <h3>Recent Post</h3>
   {{#get "posts" order="published_at desc" filter="tag:post" limit="3"}}
     {{#foreach posts}}
-      <div class="row">
-        <div class="col-xs-6 col-sm-3">
-          {{#if image}}
-            <a href="{{image}}" class="thumbnail">
-              <img src="{{image}}" width="100%">
-            </a>
-          {{/if}}
+      <div class="row sidebar-recentPost">
+        <div class="text-left">
+          <a href="{{url}}"><div class="sidebar-recentPost-image" style="{{#if image}}background-image:url('{{image}}'){{else}}background-color:#15A1E0{{/if}}"></div></a>
         </div>
-        <div class="col-xs-6 col-sm-9 text-justify">
-          <a href="{{url}}">"{{title}}"</a>
-          <p>{{excerpt words="20"}} ...</p>
+        <div class="text-left">
+          <a class="sidebar-recentPost-title" href="{{url}}">"{{title}}"</a>
+          <p class="sidebar-recentPost-content">{{excerpt words="20"}} ...</p>
         </div>
       </div>
     {{/foreach}}

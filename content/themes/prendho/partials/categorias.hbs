@@ -1,13 +1,13 @@
-<fieldset class="blog-sidebar-categories text-left">
-  <legend><h3>Categorías</h3></legend>
-  <ul>
-    <li type="circle" target="_blank">
-      <a href="/tag/blog/" class="text-uppercase">All</a>
+<fieldset class="blog-sidebar-fieldset text-left">
+  <h3 class="heading">Categorías</h3>
+  <ul class="categoriesList">
+    <li class="categoriesList-item" target="_blank">
+      <a class="categoriesList-link" href="/tag/blog/" class="text-uppercase">All</a>
     </li>
     {{#get "posts" order="asc" filter="tag:blog-category" as |item|}}
       {{#foreach item}}
-        <li type="circle">
-          <a href="/tag/{{slug}}/" class="text-uppercase">{{title}}</a>
+        <li class="categoriesList-item">
+          <a class="categoriesList-link" href="/tag/{{slug}}/" class="text-uppercase">{{title}}</a>
         </li>
       {{/foreach}}
     {{/get}}
