@@ -1,0 +1,155 @@
+.blog
+  padding: 80px 0
+  display: flex
+  flex-flow: column
+  +on-medium-devices
+    flex-flow: row
+  &-articles
+    &-content
+      padding-top: 40px
+    .custom-breadcrumb
+      list-style: none
+      background-color: white
+      padding: 0
+      margin: 0
+      a
+        text-decoration: none
+      li
+        margin-right: 10px
+      h2, h3, h4
+        color: $resolution-blue
+        margin: 0
+        font-family: NewCycle
+        margin-bottom: 3px
+        transition: 0.3s ease
+        &:hover
+          color: $curious-blue
+      img
+        margin-right: 8px
+        margin-top: 2px
+
+    .post
+      margin-top: 80px
+      font-family: OxygenLight
+      &:first-child
+        margin-top: 0
+      a
+        text-decoration: none
+      &-title
+        color: $regal-blue
+        font-size: 22px
+        line-height: 29px
+        &:hover
+          color: darken($curious-blue, 20%)
+        &.no-hover
+          &:hover
+            color: $regal-blue
+      &-date
+        color: $opal
+        padding:
+          top: 10px
+          bottom: 10px
+        *
+          color: $opal
+        a[href*="author"]
+          transition: 0.3s ease
+          &:hover
+            color: $regal-blue
+      &-image
+        height: 260px
+        width: 100%
+        overflow: hidden
+        transition: filter 0.3s ease-in-out
+        background:
+          size: cover
+          position: center
+          repeat: no-repeat
+        &:hover
+          filter: grayscale(0.5)
+        &.no-hover
+          &:hover
+            filter: none
+      &-excerpt
+        font-size: 18px
+        color: $dove-gray
+        line-height: 26px
+        margin:
+          top: 20px
+          bottom: 20px
+        img
+          width: 100%
+          height: auto
+          margin: 40px auto
+      .socialNetworks
+        margin: 20px 0
+        img
+          transition: 0.3s ease
+          &:hover
+            filter: grayscale(0.6)
+
+  &-sidebar
+    &-fieldset
+      padding: 10px
+      border: 2px solid $light-gray
+      box-sizing: border-box
+      position: relative
+      .heading
+        position: relative
+        top: -25px
+        background-color: white
+        display: inline-block
+        padding: 0 20px
+        color: $resolution-blue
+        font-family: NewCycle
+        font-size: 22px
+        margin-bottom: 20px
+        margin-top: 0
+      .categoriesList
+        &-item
+          font-size: 18px
+          font-family: NewCycle
+          text-transform: uppercase
+          list-style-type: circle
+          color: $opal
+          transition: color 0.3s ease
+          margin:
+            top: 5px
+            bottom: 5px
+          &:hover
+            color: $resolution-blue
+        &-link
+          color: $opal
+          text-decoration: none
+          &:hover
+            color: $resolution-blue
+
+    &-recentPost
+      fieldset
+        @extend .blog-sidebar-fieldset
+        margin-top: 80px
+        h3
+          @extend .heading
+
+      .sidebar-recentPost
+        box-sizing: border-box
+        display: flex
+        flex-flow: column
+        padding: 20px
+        font-family: OxygenLight
+        &-image
+          height: 180px
+          width: 100%
+          margin: 15px 0
+          background:
+            size: cover
+            position: center
+            repeat: no-repeat
+        &-title
+          font-size: 18px
+          text-decoration: none
+          color: $resolution-blue
+          &:hover
+            color: darken($curious-blue, 20%)
+        &-content
+          color: $dove-gray
+          margin: 15px 0
