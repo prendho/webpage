@@ -3,7 +3,7 @@
 
 {{! The main content area on the homepage }}
 <div class="container-fluid">
-  <div class="row">
+  <div class="intro-wrapper row">
     <div class="intro col-xs-8 col-xs-offset-2 col-sm-10 col-sm-offset-1 col-md-offset-2 col-md-8">
       {{#get "posts" filter="slug:intro-post" as |item|}}
         {{> "common-gallery-post" item=item}}
@@ -14,7 +14,7 @@
       {{#get "posts" filter="slug:emprendimientos-carousel" as |item|}}
         {{> "common-gallery-post" item=item}}
       {{/get}}
-      <div class="responsive-carousel">
+      <div class="our-endeavors responsive-carousel">
         {{#get "posts" filter="tag:nuestros-emprendimientos" as |items|}}
           {{> "carousel-items" items=items}}
         {{/get}}
@@ -24,7 +24,7 @@
       {{#get "posts" filter="slug:aliados-carousel" as |item|}}
         {{> "common-gallery-post" item=item}}
       {{/get}}
-      <div class="responsive-carousel">
+      <div class="partnerships responsive-carousel">
         {{#get "posts" filter="tag:nuestros-aliados" as |items|}}
           {{> "carousel-items" items=items}}
         {{/get}}
