@@ -3,6 +3,8 @@
   display: flex
   flex-flow: row
   &-articles
+    &-content
+      padding-top: 40px
     .custom-breadcrumb
       list-style: none
       background-color: white
@@ -22,6 +24,51 @@
           color: $curious-blue
       img
         margin-right: 8px
+        margin-top: 2px
+
+    .post
+      margin-top: 80px
+      font-family: OxygenLight
+      &:first-child
+        margin-top: 0
+      a
+        text-decoration: none
+      &-title
+        color: $regal-blue
+        font-size: 22px
+        line-height: 29px
+        &:hover
+          color: darken($curious-blue, 20%)
+      &-date
+        color: $opal
+        padding:
+          top: 10px
+          bottom: 10px
+        *
+          color: $opal
+        a[href*="author"]
+          transition: 0.3s ease
+          &:hover
+            color: $regal-blue
+      &-image
+        height: 260px
+        width: 100%
+        overflow: hidden
+        transition: filter 0.3s ease-in-out
+        background:
+          size: cover
+          position: center
+          repeat: no-repeat
+        &:hover
+          filter: grayscale(0.5)
+      &-excerpt
+        font-size: 18px
+        color: $dove-gray
+        margin:
+          top: 20px
+          bottom: 20px
+
 
   &-sidebar
-    //styles for side bar
+    &-categories
+      //styles
