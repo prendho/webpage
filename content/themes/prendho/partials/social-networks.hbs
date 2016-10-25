@@ -1,6 +1,6 @@
-<div>
-  <img src="{{asset "static/icon_fb_comp.png"}}">
-  <img src="{{asset "static/icon_twitter_blog.png"}}">
-  <img src="{{asset "static/icon_gplus_blog.png"}}">
-  <img src="{{asset "static/icon_rss_blog.png"}}">
+<div class="socialNetworks">
+  <a class="social-facebook" target="_blank" href="http://wwww.facebook.com/sharer.php?u={{url absolute="true"}}"><img src="{{asset "static/icon_fb_comp.png"}}"></a>
+  <a class="social-twitter" target="_blank" href="http://twitter.com/share?text={{encode title}}&amp;url={{url absolute="true"}}"><img src="{{asset "static/icon_twitter_blog.png"}}"></a>
+  <a class="social-google-plus" target="_blank" href="http://plus.google.com/share?url={{url absolute="true"}}"><img src="{{asset "static/icon_gplus_blog.png"}}"></a>
+  <a class="social-rss" href="{{@blog.url}}/rss/"><img src="{{asset "static/icon_rss_blog.png"}}"></a>
 </div>
