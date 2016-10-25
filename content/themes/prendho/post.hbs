@@ -1,33 +1,49 @@
 {{!< default}}
-<div class="container-fluid">
-  <div class="row">
-    {{#post}}
-      {{#has tag="blog"}}
-        <div class="col-xs-offset-2 col-xs-8 col-sm-10 col-sm-offset-1 col-md-offset-2 col-md-8 text-left">
-          <h3>
+<div class="container">
+  <div class="blog row align-spaced align-top">
+    <section class="blog-articles col-sm-8 col-md-7">
+      {{#post}}
+        {{#has tag="blog"}}
+          <div class="custom-breadcrumb align-middle text-left">
             {{#foreach tags}}
               {{#if @first}}
-                <img src="{{asset "static/ico_blog.png"}}">
-                <a href="/tag/{{slug}}/">{{name}}</a>
+              <li>
+                <div class="align-middle">
+                  <img src="{{asset "static/ico_blog.png"}}">
+                  <a href="/tag/{{slug}}/"><h3>{{name}}</h3></a>
+                </div>
+              </li>
               {{else}}
-                <small>
+              <li>
+                <div class="align-middle">
                   <img src="{{asset "static/ico_nav_blog.png"}}">
-                  <a href="/tag/{{slug}}/">{{name}}</a>
-                </small>
+                  <a href="/tag/{{slug}}/"><h3>{{name}}</h3></a>
+                </div>
+              </li>
               {{/if}}
             {{/foreach}}
-          </h3>
-        </div>
-      {{/has}}
-      <div class="col-xs-offset-2 col-xs-8 col-sm-10 col-sm-offset-1 col-md-offset-2 col-md-8 text-left">
-        <h3><a href="{{url}}">{{title}}</a></h3>
-        <span>{{date format="MMMM DD, YYYY"}} /by: {{author}}</span>
-        {{#if image}}
-          <img src="{{image}}"  width="100%" height="250">
-        {{/if}}
-        {{> "social-networks"}}
-        <p>{{content}}</p>
+          </div>
+        {{/has}}
+          <article class="post text-left">
+            <h2 class="post-title no-hover">{{title}}</h2>
+            <p class="post-date"><time date-time="{{date format='MMMM DD, YYYY'}}">{{date format="MMMM DD, YYYY"}}</time> / by: {{author}}</p>
+            <div class="post-image no-hover" style="{{#if image}}background-image:url({{image}});{{else}}background-color:#15A1E0;{{/if}}" ></div>
+            <div class="social-networks">
+              {{> "social-networks"}}
+            </div>
+            <div class="post-excerpt">{{content}}</div>
+          </article>
+      {{/post}}
+    </section>
+
+    <section class="blog-sidebar col-sm-4 col-md-3">
+      <div class="blog-sidebar-categories">
+        {{> "categorias"}}
       </div>
-    {{/post}}
+      <div class="blog-sidebar-recentPost">
+        {{> "post"}}
+      </div>
+    </section>
+
   </div>
 </div>

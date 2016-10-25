@@ -41,6 +41,9 @@
         line-height: 29px
         &:hover
           color: darken($curious-blue, 20%)
+        &.no-hover
+          &:hover
+            color: $regal-blue
       &-date
         color: $opal
         padding:
@@ -63,12 +66,22 @@
           repeat: no-repeat
         &:hover
           filter: grayscale(0.5)
+        &.no-hover
+          &:hover
+            filter: none
       &-excerpt
         font-size: 18px
         color: $dove-gray
+        line-height: 26px
         margin:
           top: 20px
           bottom: 20px
+        img
+          width: 100%
+          height: auto
+          margin: 40px auto
+      .social-networks
+        margin: 20px 0
 
   &-sidebar
     &-fieldset

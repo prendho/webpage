@@ -5,7 +5,7 @@
       <a href="{{url}}"><h2 class="post-title">{{title}}</h2></a>
       <p class="post-date"><time date-time="{{date format='MMMM DD, YYYY'}}">{{date format="MMMM DD, YYYY"}}</time> / by: {{author}}</p>
       <a href="{{url}}"><div class="post-image" style="{{#if image}}background-image:url({{image}});{{else}}background-color:#15A1E0;{{/if}}" ></div></a>
-      <div class="post-excerpt align-right">{{excerpt}} ...</div>
+      <div class="post-excerpt">{{excerpt}} ...</div>
     </article>
   {{/foreach}}
 {{/get}}
