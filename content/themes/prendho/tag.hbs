@@ -1,33 +1,40 @@
 {{!< default}}
-<div class="container-fluid">
-  <div class="row">
-    <div class="col-xs-offset-2 col-xs-8 text-left">
-      <ol class="breadcrumb">
-        <li>
-          <h3>
-            <img src="{{asset "static/ico_blog.png"}}"> 
-            <a href="/tag/blog/">Blog</a>
-          </h3>
-        </li>
-        {{#tag}}
+<div class="container">
+  <div class="blog row align-top align-spaced">
+    <section class="blog-articles col-md-7">
+      <div class="text-left">
+        <ul class="custom-breadcrumb align-middle">
           <li>
-            <img src="{{asset "static/ico_nav_blog.png"}}">
-            <a id="{{slug}}" href="/tag/{{slug}}/">{{name}}</a>
+            <div class="align-middle">
+              <img src="{{asset "static/ico_blog.png"}}">
+              <a href="/tag/blog/"><h2>Blog</h2></a>
+            </div>
           </li>
-        {{/tag}}
-      </ol>
-    </div>
-    <div class="col-xs-offset-2 col-xs-8 text-left">
-      {{> "blog"}}  
-    </div>
-    <div class="col-xs-offset-2 col-xs-8">
-      {{pagination}} 
-    </div>
-    <div class="col-xs-offset-2 col-xs-8">
-      {{> "categorias"}}
-    </div>
-    <div class="col-xs-offset-2 col-xs-8">
-      {{> "post"}}
-    </div>
+          {{#tag}}
+            <li>
+              <div class="align-middle">
+                <img src="{{asset "static/ico_nav_blog.png"}}">
+                <a id="{{slug}}" href="/tag/{{slug}}/"><h3>{{name}}</h3></a>
+              </div>
+            </li>
+          {{/tag}}
+        </ul>
+      </div>
+      <div class="text-left">
+        {{> "blog"}}
+      </div>
+      <div class="pagination">
+        {{pagination}}
+      </div>
+    </section>
+
+    <section class="blog-sidebar col-md-3">
+      <div class="blog-sidebar-categories">
+        {{> "categorias"}}
+      </div>
+      <div class="blog-sidebar-recentPost">
+        {{> "post"}}
+      </div>
+    </section>
   </div>
 </div>
