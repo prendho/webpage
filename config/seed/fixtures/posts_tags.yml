@@ -182,3 +182,10 @@
 
 - tag_slug: laboratorios-carrusel
   post_slug: laboratorio-4
+
+# Recursos: post
+- tag_slug: recursos
+  post_slug: branding-personal-empresarial
+
+- tag_slug: recursos
+  post_slug: metodologías-agiles

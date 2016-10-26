@@ -349,3 +349,66 @@
   title: Laboratorio 4
   markdown: <%= fake_sentence %>
   image: http://placehold.it/350x150?text=laboratorio+4
+
+# Recursos: Página
+- page: true
+  slug: recursos
+  title: Recursos
+  markdown:  <%= fake_sentence %>
+
+# Recursos: Post
+- slug: branding-personal-empresarial
+  title: Branding personal y empresarial
+  markdown: |
+    <table class="table" style="width:100%">
+      <thead>
+        <tr>
+          <td>Recurso</td>
+          <td>Tamaño (MB)</td>
+          <td>Formato</td>
+          <td>Tipo</td>
+        </tr> 
+      </thead>
+      <tbody>
+        <tr>
+          <td><a>Presentaciones efectivas</a>(Itziar Lopez)</td>
+          <td>10.3</td>
+          <td>PDF</td>
+          <td>Capacitaión</td>
+        </tr>
+      </tbody>
+    </table>
+
+- slug: metodologías-agiles
+  title: Metodologías ágiles
+  markdown: |
+    <table class="table" style="width:100%">
+      <thead>
+        <tr>
+          <td>Recurso</td>
+          <td>Tamaño (MB)</td>
+          <td>Formato</td>
+          <td>Tipo</td>
+        </tr> 
+      </thead>
+      <tbody>
+        <tr>
+          <td><a>Presentaciones efectivas</a>(Itziar Lopez)</td>
+          <td>10.3</td>
+          <td>PDF</td>
+          <td>Capacitaión</td>
+        </tr>
+        <tr>
+          <td><a>Presentaciones efectivas</a>(Itziar Lopez)</td>
+          <td>10.3</td>
+          <td>PDF</td>
+          <td>Capacitaión</td>
+        </tr>
+        <tr>
+          <td><a>Presentaciones efectivas</a>(Itziar Lopez)</td>
+          <td>10.3</td>
+          <td>PDF</td>
+          <td>Capacitaión</td>
+        </tr>
+      </tbody>
+    </table>
