@@ -412,3 +412,39 @@
         </tr>
       </tbody>
     </table>
+
+# Contacto: Página
+- page: true
+  slug: contacto
+  title: ¿Que es prendho?
+  markdown:  <%= fake_sentence %>
+
+# Contacto: Post
+- slug: mejor-incubadora
+  title: Mejor Incubadora
+  markdown:  <%= fake_sentence %>
+
+- slug: mentores
+  title: Mentores
+  markdown:  <%= fake_sentence %>
+
+# Contacto: Equipo de trabajo
+- slug: equipo-trabajo-carrusel
+  title: Equipo de trabajo
+  markdown: <%= fake_sentence %>
+
+# Asesoria: Equipo de trabajo carrusel
+- slug: equipo-trabajo-1
+  title: Equipo de trabajo 1
+  markdown: <%= fake_sentence %>
+  image: http://placehold.it/350x150?text=Equipo+de+trabajo+1
+
+- slug: equipo-trabajo-2
+  title: Equipo de trabajo 2
+  markdown: <%= fake_sentence %>
+  image: http://placehold.it/350x150?text=Equipo+de+trabajo+1
+
+- slug: equipo-trabajo-3
+  title: Equipo de trabajo 3
+  markdown: <%= fake_sentence %>
+  image: http://placehold.it/350x150?text=Equipo+de+trabajo+1

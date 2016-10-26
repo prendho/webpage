@@ -1,0 +1,44 @@
+{{!< default}}
+<div class="container-fluid">
+  <div class="row">
+
+    <div class="col-xs-offset-2 col-xs-8 col-sm-10 col-sm-offset-1 col-md-offset-2 col-md-8">
+      {{#post}}
+        <div class="common-gallery-post">
+          <h2>{{title}}</h2>
+          {{content}}
+        </div>
+      {{/post}}
+    </div>
+
+    <div class="col-xs-offset-2 col-xs-8 col-sm-10 col-sm-offset-1 col-md-offset-2 col-md-8">
+      {{#get "posts" filter="slug:mejor-incubadora" as |item|}}
+        <img src="{{asset "static/icono_mejor_incub.png"}}">
+        <img src="{{asset "static/flechas_proces.png"}}">
+        {{> "common-gallery-post" item=item}}
+        <a href="#" class="btn btn-lg btn-primary intro-cta-btn">conoce mas</a>
+      {{/get}}
+    </div>
+
+    <div class="col-xs-8 col-xs-offset-2 col-sm-10 col-sm-offset-1 col-md-offset-2 col-md-8">
+      <div class="post-gallery">
+        {{#get "posts" filter="slug:equipo-trabajo-carrusel" as |item|}}
+          {{> "common-gallery-post" item=item}}
+        {{/get}}
+        <div class="responsive-carousel">
+          {{#get "posts" filter="tag:equipo-trabajo-carrusel" order="published_at asc" as |items|}}
+            {{> "carousel-items" items=items}}
+          {{/get}}
+        </div>
+      </div>
+    </div>
+
+    <div class="col-xs-offset-2 col-xs-8 col-sm-10 col-sm-offset-1 col-md-offset-2 col-md-8">
+      {{#get "posts" filter="slug:mentores" as |item|}}
+        {{> "common-gallery-post" item=item}}
+        <a href="#" class="btn btn-lg btn-primary intro-cta-btn">conoce mas</a>
+      {{/get}}
+    </div>
+
+  </div>
+</div>
