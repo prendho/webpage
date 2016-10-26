@@ -1,9 +1,26 @@
+.coworking-intro
+  padding: 80px 0
 .coworking-blue-wrapper
   background-color: $main-blue
   margin-top: 20px
   margin-bottom: 20px
-  padding-top: 20px
-  padding-bottom: 20px
+  padding-top: 80px
+  padding-bottom: 0
+  #curveDownColor
+    margin-top: 40px
+    background-color: white
+    position: relative
+    bottom: -7px
+    height: 50px
+    path
+      fill: $resolution-blue
+
+    +on-medium-devices
+      height: 100px
+
+    +on-x-large-devices
+      height: 140px
+
   .gallery-post.coworking-post
     color: white
     font-family: OxygenLight
@@ -72,3 +89,45 @@
           color: $secondary-blue
           padding-right: 7px
           text-indent: -.7em
+
+.packages-carousel
+  .glyphicon
+    font-size: 30px
+    &-menu-left
+      left: -20px
+    &-menu-right
+      right: -20px
+.coworkingPackage
+  outline: none
+  &-title
+    font-size: 22px
+    font-family: OxygenBold
+  &-image
+    position: absolute
+    top: 0
+    left: 50%
+    transform: translate(-50%, -50%)
+    background-color: white
+    border: 20px solid white
+    border-radius: 100%
+  &-content
+    border: 2px solid $mercury
+    padding: 10px
+    margin-top: 100px
+    position: relative
+    border-radius: 3px
+    min-height: 500px
+    font-family: OxygenLight
+    font-size: responsive 12px 14px
+    ul
+      padding-left: 20px
+      +on-medium-devices
+        padding-left: 25px
+  &-price
+    margin-top: 90px
+    margin-bottom: 40px
+    color: $resolution-blue
+    font-size: 45px
+
+.post-gallery
+  padding: 80px 0

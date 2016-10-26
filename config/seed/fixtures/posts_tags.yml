@@ -101,13 +101,16 @@
 - tag_slug: coworking-paquetes
   post_slug: paquete-2
 
+- tag_slug: coworking-paquetes
+  post_slug: paquete-3
+
 # tag:emprendimientos-categorias
 - tag_slug: emprendimiento-category
   post_slug: emprendimiento-agroindustrial
 
 - tag_slug: emprendimiento-category
   post_slug: emprendimiento-electronica
-  
+
 - tag_slug: emprendimiento-category
   post_slug: emprendimiento-tecnologia
 
@@ -120,7 +123,7 @@
 
 - tag_slug: emprendimiento-agroindustrial
   post_slug: soyard
-  
+
 - tag_slug: emprendimiento-agroindustrial
   post_slug: conservas-don-felix
 
@@ -129,7 +132,7 @@
 
 - tag_slug: emprendimiento-agroindustrial
   post_slug: casillero
-  
+
 - tag_slug: emprendimiento-electronica
   post_slug: kradac
 
@@ -138,7 +141,7 @@
 
 - tag_slug: emprendimiento-electronica
   post_slug: conectate-al-aire
-  
+
 - tag_slug: emprendimiento-tecnologia
   post_slug: cid-secure
 
@@ -147,7 +150,7 @@
 
 - tag_slug: emprendimiento-tecnologia
   post_slug: noggalito
-  
+
 - tag_slug: emprendimiento-tecnologia
   post_slug: aprendizaje-libre
 

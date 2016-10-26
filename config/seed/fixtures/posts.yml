@@ -84,9 +84,9 @@
   title: <%= lipsum_small %>
   image: /default/e969513037fbcc3e068a0c231c43132ca1aa1ebe.jpeg
   markdown: |
-    <%= lipsum %> 
+    <%= lipsum %>
     ![POST](http://placehold.it/350x150?text=imagen+1)
-    <%= lipsum %> 
+    <%= lipsum %>
 
 - uuid: <%= uuid %>
   slug: blog-post-2
@@ -170,6 +170,7 @@
 # Coworking: Paquetes carrusel
 - slug: paquete-1
   title: Paquete Villonaco
+  image: /default/icono_paquete_villonaco.png
   meta_title: $65
   markdown: |
     - Espacio físico para una persona
@@ -183,7 +184,8 @@
     - Acceso al laboratorio de prototipo, pasantías de estudiantes en los emprendimientos, y otro servicios porvistos por UTLP
 
 - slug: paquete-2
-  title: Paquete Opcional
+  title: Paquete Jipiro
+  image: /default/icono_paquete_jipiro.png
   meta_title: $50
   markdown: |
     - Espacio físico para una persona
@@ -192,6 +194,21 @@
     - Taller  o conferencia mensual
     - Casillero
     - Equipo de computo
+
+- slug: paquete-3
+  title: Paquete Arupo
+  image: /default/icono_paquete_arupo.png
+  meta_title: $75
+  markdown: |
+    - Espacio físico para una persona
+    - Servicios básicos
+    - Internet
+    - Taller  o conferencia mensual
+    - Casillero
+    - Equipo de computo
+    - Sala de reuniones (4 horas al mes)
+    - Infraestructura en la nube
+    - Acceso a laboratorios de prototipado, pasantías de estudiantes en los emprendimientos, y otros servicios provistos por UTPL
 
 # Coworking: Galeria
 - slug: coworking-galeria-carrusel
