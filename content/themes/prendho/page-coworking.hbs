@@ -27,12 +27,14 @@
     </div>
   </div>
 
-  <div class="responsive-carousel">
-    {{#get "posts" filter="tag:coworking-paquetes" as |items|}}
-      {{#foreach items as |item|}}
-        {{> "coworking-paquete" item=item}}
-      {{/foreach}}
-    {{/get}}
+  <div class="container">
+    <div class="responsive-carousel">
+      {{#get "posts" filter="tag:coworking-paquetes" as |items|}}
+        {{#foreach items as |item|}}
+          {{> "coworking-paquete" item=item}}
+        {{/foreach}}
+      {{/get}}
+    </div>
   </div>
 
   <div class="row">

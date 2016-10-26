@@ -72,3 +72,34 @@
           color: $secondary-blue
           padding-right: 7px
           text-indent: -.7em
+
+.coworkingPackage
+  &-title
+    font-size: 22px
+    font-family: OxygenBold
+  &-image
+    position: absolute
+    top: 0
+    left: 50%
+    transform: translate(-50%, -50%)
+    background-color: white
+    border: 20px solid white
+    border-radius: 100%
+  &-content
+    border: 2px solid $mercury
+    padding: 10px
+    margin-top: 100px
+    position: relative
+    border-radius: 3px
+    min-height: 500px
+    font-family: OxygenLight
+    font-size: responsive 12px 14px
+    ul
+      padding-left: 20px
+      +on-medium-devices
+        padding-left: 25px
+  &-price
+    margin-top: 90px
+    margin-bottom: 40px
+    color: $resolution-blue
+    font-size: 45px
