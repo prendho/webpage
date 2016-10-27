@@ -374,7 +374,7 @@
           <td><a>Presentaciones efectivas</a>(Itziar Lopez)</td>
           <td>10.3</td>
           <td>PDF</td>
-          <td>Capacitaión</td>
+          <td>Capacitación</td>
         </tr>
       </tbody>
     </table>
@@ -396,19 +396,19 @@
           <td><a>Presentaciones efectivas</a>(Itziar Lopez)</td>
           <td>10.3</td>
           <td>PDF</td>
-          <td>Capacitaión</td>
+          <td>Capacitación</td>
         </tr>
         <tr>
           <td><a>Presentaciones efectivas</a>(Itziar Lopez)</td>
           <td>10.3</td>
           <td>PDF</td>
-          <td>Capacitaión</td>
+          <td>Capacitación</td>
         </tr>
         <tr>
           <td><a>Presentaciones efectivas</a>(Itziar Lopez)</td>
           <td>10.3</td>
           <td>PDF</td>
-          <td>Capacitaión</td>
+          <td>Capacitación</td>
         </tr>
       </tbody>
     </table>
@@ -416,13 +416,14 @@
 # Contacto: Página
 - page: true
   slug: contacto
-  title: ¿Que es prendho?
+  title: ¿Qué es prendho?
   markdown:  <%= fake_sentence %>
 
 # Contacto: Post
 - slug: mejor-incubadora
   title: Mejor Incubadora
   markdown:  <%= fake_sentence %>
+  image: /default/icono_mejor_incub.png
 
 - slug: mentores
   title: Mentores
