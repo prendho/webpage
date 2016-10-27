@@ -360,7 +360,7 @@
 - slug: branding-personal-empresarial
   title: Branding personal y empresarial
   markdown: |
-    <div class="tableMarkdown">
+    <div class="table">
     |Recursos|Tamaño (MB)|Formato|Tipo|
     |--------|-----------|-------|----|
     |[Presentaciones Efectivas](http://example.com)|10.3MB|PDF|Capacitación|
@@ -373,7 +373,7 @@
 - slug: metodologías-agiles
   title: Metodologías ágiles
   markdown: |
-    <div class="tableMarkdown">
+    <div class="table">
     |Recursos|Tamaño (MB)|Formato|Tipo|
     |--------|-----------|-------|----|
     |[Presentaciones Efectivas](http://example.com)|14.3MB|PDF|Capacitación|

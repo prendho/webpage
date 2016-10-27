@@ -1,17 +1,19 @@
 $(function(){
-  var converter = new showdown.Converter(),
-      $tables   = $('body').find('.tableMarkdown'),
+  var $tables   = $('body').find('.table'),
       tableMarkdown,
       tableContent;
 
   /* Set Options */
-  converter.setOption('tables', true);
+  if($tables.length){
+    var converter = new showdown.Converter();
+        converter.setOption('tables', true);
 
-  $tables.map(function(i, table){
-    tableContent = $(table).text();
-    tableMarkdown = converter.makeHtml(tableContent);
-    $(table)
-      .empty()
-      .append(tableMarkdown);
-  });
-})
+    $tables.map(function(i, table){
+      tableContent = $(table).text();
+      tableMarkdown = converter.makeHtml(tableContent);
+      $(table)
+        .empty()
+        .append(tableMarkdown);
+    });
+  }
+});
