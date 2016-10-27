@@ -4,7 +4,7 @@ $(function(){
       tableContent;
 
   /* Set Options */
-  if($tables.length){
+  if($tables.length > 0){
     var converter = new showdown.Converter();
         converter.setOption('tables', true);
 
