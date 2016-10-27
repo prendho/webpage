@@ -449,3 +449,9 @@
   title: Equipo de trabajo 3
   markdown: <%= fake_sentence %>
   image: http://placehold.it/350x150?text=Equipo+de+trabajo+1
+
+# Error:pagina-no-encontrada
+- slug: pagina-no-encontrada
+  title: Página no encontrada
+  markdown: <%= fake_sentence %>
+  image: http://placehold.it/150x150?text=Página+no+encontrada
