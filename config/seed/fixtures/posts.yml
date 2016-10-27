@@ -84,9 +84,9 @@
   title: <%= lipsum_small %>
   image: /default/e969513037fbcc3e068a0c231c43132ca1aa1ebe.jpeg
   markdown: |
-    <%= lipsum %> 
+    <%= lipsum %>
     ![POST](http://placehold.it/350x150?text=imagen+1)
-    <%= lipsum %> 
+    <%= lipsum %>
 
 - uuid: <%= uuid %>
   slug: blog-post-2
@@ -360,58 +360,25 @@
 - slug: branding-personal-empresarial
   title: Branding personal y empresarial
   markdown: |
-    <table class="table" style="width:100%">
-      <thead>
-        <tr>
-          <td>Recurso</td>
-          <td>Tamaño (MB)</td>
-          <td>Formato</td>
-          <td>Tipo</td>
-        </tr> 
-      </thead>
-      <tbody>
-        <tr>
-          <td><a>Presentaciones efectivas</a>(Itziar Lopez)</td>
-          <td>10.3</td>
-          <td>PDF</td>
-          <td>Capacitación</td>
-        </tr>
-      </tbody>
-    </table>
+    <div class="tableMarkdown">
+    |Recursos|Tamaño (MB)|Formato|Tipo|
+    |--------|-----------|-------|----|
+    |[Presentaciones Efectivas](http://example.com)|10.3MB|PDF|Capacitación|
+    |[Presentaciones Efectivas](http://example.com)|10.1MB|PDF|Capacitación|
+    |[Presentaciones Efectivas](http://example.com/)|10.8MB|PDF|Capacitación|
+    |[Presentaciones Efectivas](http://example.com/)|10.8MB|PDF|Capacitación|
+    |[Presentaciones Efectivas](http://example.com/)|10.8MB|PDF|Capacitación|
+    </div>
 
 - slug: metodologías-agiles
   title: Metodologías ágiles
   markdown: |
-    <table class="table" style="width:100%">
-      <thead>
-        <tr>
-          <td>Recurso</td>
-          <td>Tamaño (MB)</td>
-          <td>Formato</td>
-          <td>Tipo</td>
-        </tr> 
-      </thead>
-      <tbody>
-        <tr>
-          <td><a>Presentaciones efectivas</a>(Itziar Lopez)</td>
-          <td>10.3</td>
-          <td>PDF</td>
-          <td>Capacitación</td>
-        </tr>
-        <tr>
-          <td><a>Presentaciones efectivas</a>(Itziar Lopez)</td>
-          <td>10.3</td>
-          <td>PDF</td>
-          <td>Capacitación</td>
-        </tr>
-        <tr>
-          <td><a>Presentaciones efectivas</a>(Itziar Lopez)</td>
-          <td>10.3</td>
-          <td>PDF</td>
-          <td>Capacitación</td>
-        </tr>
-      </tbody>
-    </table>
+    <div class="tableMarkdown">
+    |Recursos|Tamaño (MB)|Formato|Tipo|
+    |--------|-----------|-------|----|
+    |[Presentaciones Efectivas](http://example.com)|14.3MB|PDF|Capacitación|
+    |[Presentaciones Efectivas](http://example.com)|18.1MB|PDF|Capacitación|
+    </div>
 
 # Contacto: Página
 - page: true
