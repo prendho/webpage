@@ -366,3 +366,76 @@
   title: Laboratorio 4
   markdown: <%= fake_sentence %>
   image: http://placehold.it/350x150?text=laboratorio+4
+
+# Recursos: Página
+- page: true
+  slug: recursos
+  title: Recursos
+  markdown:  <%= fake_sentence %>
+
+# Recursos: Post
+- slug: branding-personal-empresarial
+  title: Branding personal y empresarial
+  markdown: |
+    <div class="table">
+    |Recursos|Tamaño (MB)|Formato|Tipo|
+    |--------|-----------|-------|----|
+    |[Presentaciones Efectivas](http://example.com)|10.3MB|PDF|Capacitación|
+    |[Presentaciones Efectivas](http://example.com)|10.1MB|PDF|Capacitación|
+    |[Presentaciones Efectivas](http://example.com/)|10.8MB|PDF|Capacitación|
+    |[Presentaciones Efectivas](http://example.com/)|10.8MB|PDF|Capacitación|
+    |[Presentaciones Efectivas](http://example.com/)|10.8MB|PDF|Capacitación|
+    </div>
+
+- slug: metodologías-agiles
+  title: Metodologías ágiles
+  markdown: |
+    <div class="table">
+    |Recursos|Tamaño (MB)|Formato|Tipo|
+    |--------|-----------|-------|----|
+    |[Presentaciones Efectivas](http://example.com)|14.3MB|PDF|Capacitación|
+    |[Presentaciones Efectivas](http://example.com)|18.1MB|PDF|Capacitación|
+    </div>
+
+# Contacto: Página
+- page: true
+  slug: contacto
+  title: ¿Qué es prendho?
+  markdown:  <%= fake_sentence %>
+
+# Contacto: Post
+- slug: mejor-incubadora
+  title: Mejor Incubadora
+  markdown:  <%= fake_sentence %>
+  image: /default/icono_mejor_incub.png
+
+- slug: mentores
+  title: Mentores
+  markdown:  <%= fake_sentence %>
+
+# Contacto: Equipo de trabajo
+- slug: equipo-trabajo-carrusel
+  title: Equipo de trabajo
+  markdown: <%= fake_sentence %>
+
+# Asesoria: Equipo de trabajo carrusel
+- slug: equipo-trabajo-1
+  title: Equipo de trabajo 1
+  markdown: <%= fake_sentence %>
+  image: http://placehold.it/350x150?text=Equipo+de+trabajo+1
+
+- slug: equipo-trabajo-2
+  title: Equipo de trabajo 2
+  markdown: <%= fake_sentence %>
+  image: http://placehold.it/350x150?text=Equipo+de+trabajo+1
+
+- slug: equipo-trabajo-3
+  title: Equipo de trabajo 3
+  markdown: <%= fake_sentence %>
+  image: http://placehold.it/350x150?text=Equipo+de+trabajo+1
+
+# Error:pagina-no-encontrada
+- slug: pagina-no-encontrada
+  title: Página no encontrada
+  markdown: <%= fake_sentence %>
+  image: http://placehold.it/150x150?text=Página+no+encontrada

@@ -88,3 +88,13 @@
 - name: Carrusel de Laboratorios
   slug: laboratorios-carrusel
   description: Carrusel de laboratorios para la página de asesoria
+
+# Tag: recursos
+- name: Recursos
+  slug: recursos
+  description: Agrupa los post que pertenecen a la página de recursos
+
+# Tag: contacto-equipo-trabajo
+- name: Carrusel de Equipo de trabajo
+  slug: equipo-trabajo-carrusel
+  description: Carrusel de equipo de trabajo para la página contacto

@@ -10,5 +10,11 @@
 - url: '/asesoria/'
   label: 'Asesoría'
 
+- url: '/recursos/'
+  label: 'Recursos'
+
+- url: '/contacto/'
+  label: 'Contacto'
+
 - url: '/tag/blog/'
   label: 'Blog'
