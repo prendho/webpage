@@ -31,15 +31,40 @@
         height: 140px
 
     &-container
+      display: flex
+      justify-content: center
+      flex-flow: column
+      align-items: center
+      +on-medium-devices
+        flex-flow: row
+        justify-content: space-between
       .images
         position: relative
+        margin-top: 20px
+        margin-bottom: 20px
+        +on-medium-devices
+          margin-top: 0
+          margin-bottom: 0
         &-arrow
           width: 35px
-          transform: rotate(-90deg)
           position: absolute
-          right: -70px
-          top: 50%
+          right: 50%
+          transform: translateX(50%)
+          top: 100%
+          margin-top: 20px
+          margin-bottom: 20px
+          +on-medium-devices
+            right: -70px
+            top: 50%
+            transform: rotate(-90deg) translateX(50%)
+            display: none
+          +on-large-devices
+            display: block
       .content
+        text-align: center
+        +on-medium-devices
+          text-align: left
+          margin-left: 30px
         p
           color: white
         .btn-primary
