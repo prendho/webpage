@@ -1,18 +1,22 @@
 {{!< default}}
-<div class="container-fluid">
+<div class="resources container">
   <div class="row">
-    <div class="col-xs-offset-2 col-xs-8 col-sm-10 col-sm-offset-1 col-md-offset-2 col-md-8">
-      {{> "common-gallery-post" item=post}}
-    </div>
-    <div class="col-xs-offset-2 col-xs-8 col-sm-10 col-sm-offset-1 col-md-offset-2 col-md-8">
-      {{#get "posts" filter="tag:recursos" order="published_at asc" as |item|}}
-        {{#foreach item}}
-          <fieldset>
-            <legend>{{title}}</legend>
-            <div>{{content}}</div>
-          </fieldset>
-        {{/foreach}}
-      {{/get}}
+    <div class="align-center">
+      <div class="col-xs-12 col-sm-10 col-md-8">
+        {{> "common-gallery-post" item=post}}
+      </div>
+      <div class="col-xs-12 col-sm-10 col-md-8">
+        {{#get "posts" filter="tag:recursos" order="published_at asc" as |item|}}
+          {{#foreach item}}
+            <fieldset>
+              <div class="table-header text-left">
+                <h4 class="table-header-title">{{title}}</h4>
+              </div>
+              <div>{{content}}</div>
+            </fieldset>
+          {{/foreach}}
+        {{/get}}
+      </div>
     </div>
   </div>
 </div>
