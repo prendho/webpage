@@ -7,7 +7,7 @@
   ResponsiveCarousel.prototype.initialize = function () {
     this.$el.slick(
       $.extend({}, window.prendhoHelpers.defaultSlickOptions, {
-        autoplay: false,
+        autoplay: true,
         slidesToShow: 3,
         responsive: [
           {
