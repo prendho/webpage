@@ -1,4 +1,4 @@
-$headerCarouselBottomPadding: 20px
+$headerCarouselBottomPadding: 40px
 $smMinCaptionPadding: -400px
 
 #header-carousel
@@ -24,6 +24,10 @@ $smMinCaptionPadding: -400px
         min-height: 440px
       @media (min-width: $screen-sm-min)
         min-height: 540px
+      +on-large-devices
+        min-height: 640px
+      +on-x-large-devices
+        min-height: 750px
     .caption
       font-family: OxygenLight
       position: absolute
@@ -46,9 +50,12 @@ $smMinCaptionPadding: -400px
         bottom: 160px
       @media (min-width: $screen-lg-min)
         bottom: 180px
+      +on-x-large-devices
+        bottom: 200px
       p
         text-align: left
         margin-bottom: 0
+        font-size: responsive 14px 18px
 
   .carousel-controls
     z-index: 2
@@ -68,7 +75,7 @@ $smMinCaptionPadding: -400px
     @media (min-width: $screen-md-min)
       bottom: 115px
     @media (min-width: $screen-lg-min)
-      bottom: 130px
+      bottom: 150px
     .glyphicon
       color: white
       font-size: 18px
@@ -94,3 +101,5 @@ $smMinCaptionPadding: -400px
       height: 140px
     @media (max-width: $mobileSMWidth)
       height: 70px
+    +on-x-large-devices
+      height: 470px
