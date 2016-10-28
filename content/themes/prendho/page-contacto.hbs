@@ -1,44 +1,52 @@
 {{!< default}}
-<div class="container-fluid">
-  <div class="row">
-
-    <div class="col-xs-offset-2 col-xs-8 col-sm-10 col-sm-offset-1 col-md-offset-2 col-md-8">
+<div class="contact">
+  <div class="contact-container align-middle">
+    <div class="contact-header col-xs-12 col-sm-10 col-md-8">
       {{#post}}
-        <div class="common-gallery-post">
-          <h2>{{title}}</h2>
-          {{content}}
-        </div>
+      <div class="common-gallery-post">
+        <h2 class="contact-header-title">{{title}}</h2>
+        {{content}}
+      </div>
       {{/post}}
     </div>
 
-    <div class="col-xs-offset-2 col-xs-8 col-sm-10 col-sm-offset-1 col-md-offset-2 col-md-8">
-      {{#get "posts" filter="slug:mejor-incubadora" as |item|}}
-        {{#item}}
-          <img src="{{image}}">
-          <img src="{{asset "static/flechas_proces.png"}}">
-          {{> "common-gallery-post" item=item}}
-          <a href="#" class="btn btn-lg btn-primary intro-cta-btn">conoce mas</a>
-        {{/item}}
-      {{/get}}
+    <div class="section-blue align-center">
+      <div class="col-xs-12 col-sm-11 col-md-8">
+        {{#get "posts" filter="slug:mejor-incubadora" as |item|}}
+          <div class="section-blue-container">
+            {{#item}}
+            <div class="images">
+              <img class="images-logo" src="{{image}}">
+              <img class="images-arrow" src="{{asset "static/flechas_proces.png"}}">
+            </div>
+            <div class="content text-left">
+              {{> "contact-blue-section" item=item}}
+              <a href="#" class="btn btn-lg btn-primary intro-cta-btn">conoce más</a>
+            </div>
+            {{/item}}
+          </div>
+        {{/get}}
+      </div>
+      {{> "curveDownSVG"}}
     </div>
 
-    <div class="col-xs-8 col-xs-offset-2 col-sm-10 col-sm-offset-1 col-md-offset-2 col-md-8">
+    <div class="col-xs-8 col-sm-10 col-md-8">
       <div class="post-gallery">
         {{#get "posts" filter="slug:equipo-trabajo-carrusel" as |item|}}
           {{> "common-gallery-post" item=item}}
         {{/get}}
-        <div class="responsive-carousel">
+        <div class="responsive-carousel col-xs-12 col-sm-12">
           {{#get "posts" filter="tag:equipo-trabajo-carrusel" order="published_at asc" as |items|}}
-            {{> "carousel-items" items=items}}
+            {{> "carousel-team-items" items=items}}
           {{/get}}
         </div>
       </div>
     </div>
 
-    <div class="col-xs-offset-2 col-xs-8 col-sm-10 col-sm-offset-1 col-md-offset-2 col-md-8">
+    <div class="col-xs-8 col-sm-10 col-md-8">
       {{#get "posts" filter="slug:mentores" as |item|}}
         {{> "common-gallery-post" item=item}}
-        <a href="#" class="btn btn-lg btn-primary intro-cta-btn">conoce mas</a>
+        <a href="#" class="btn btn-lg btn-primary intro-cta-btn">conoce más</a>
       {{/get}}
     </div>
 
