@@ -14,14 +14,24 @@
           </div>
 
           <div class="col-xs-12 col-sm-6">
-            <form>
+            <form action="https://mrthomas.herokuapp.com/api/v1/notification" method="POST" role="form">
+              
+              <div class="hidden">
+  +             <img src="https://mrthomas.herokuapp.com/keepalive" />
+  +             <script src="https://mrthomas.herokuapp.com/api/v1/recaptcha.js" async defer></script>
+  +           </div>
+              <input type="hidden" name="token" value="8dd9c1efde3193c3fa76416c24e2474dec1792b09f7e781fd7d0d9a6f00fee61">
+
               <p class="text-left">Deja un comentario</p>
-              <textarea name="mensaje" placeholder="mensaje" class="form-control" required></textarea>
-              <input type="text" name="nombre" placeholder="nombre" class="form-control" required>
-              <input type="email" name="email" placeholder="e-mail" class="form-control" required>
+              <textarea id="mensajeTextarea" name="mensaje" placeholder="mensaje" class="form-control" required></textarea>
+              <input type="text" id="nameInput" name="nombre" placeholder="nombre" class="form-control" required>
+              <input type="email" id="emailInput" name="email" placeholder="e-mail" class="form-control" required>
+              <div class="g-recaptcha"></div>
+              <div class="help-block with-errors"></div>
               <div class="text-right">
                 <input type="submit" value="enviar" class="btn btn-inverse">
               </div>
+              
             </form>
           </div>
         </div>
