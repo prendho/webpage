@@ -81,7 +81,7 @@
 
 #Blog: Post
 - slug: blog-post-1
-  title: <%= lipsum_small %>
+  title: <%= fake_sentence %>
   image: /default/e969513037fbcc3e068a0c231c43132ca1aa1ebe.jpeg
   markdown: |
     <%= lipsum %>
@@ -90,7 +90,7 @@
 
 - uuid: <%= uuid %>
   slug: blog-post-2
-  title: <%= lipsum_small %>
+  title: <%= fake_sentence %>
   image: /default/e969513037fbcc3e068a0c231c43132ca1aa1ebe.jpeg
   markdown: |
     <%= lipsum %>
@@ -98,17 +98,17 @@
     <%= lipsum %>
 
 - slug: blog-post-3
-  title: <%= lipsum_small %>
+  title: <%= fake_sentence %>
   image: /default/e969513037fbcc3e068a0c231c43132ca1aa1ebe.jpeg
   markdown: <%= lipsum %>
 
 - slug: blog-post-4
-  title: <%= lipsum_small %>
+  title: <%= fake_sentence %>
   image: /default/e969513037fbcc3e068a0c231c43132ca1aa1ebe.jpeg
   markdown: <%= lipsum %>
 
 - slug: blog-post-5
-  title: <%= lipsum_small %>
+  title: <%= fake_sentence %>
   image: /default/e969513037fbcc3e068a0c231c43132ca1aa1ebe.jpeg
   markdown: <%= lipsum %>
 

@@ -74,12 +74,17 @@
           border-radius: 3px
           @media (min-width: $screen-sm-min)
             margin: 10px 0
+          +on-large-devices
+            margin: 10px 3px
           &.nav-current
             background-color: $navbar-default-bg
         a
           color: white
-          padding: 8px 15px
+          padding: 8px 10px
+          font-size: responsive 12px 14px
           border-radius: 3px
+          transition: 0.3s ease
+          background-color: transparent
           @media (min-width: $screen-sm-min)
             padding: 5px 15px
           &:hover, &:focus, &:active
