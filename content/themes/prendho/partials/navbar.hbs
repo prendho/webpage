@@ -19,12 +19,29 @@
       <div class="navbar-right">
         {{navigation}}
 
-        <form class="navbar-form">
-          <div class="form-group">
-            <span class="glyphicon glyphicon-search"></span>
-            <input type="text" class="form-control" placeholder="Buscar">
-          </div>
-        </form>
+        <div class="gcse-hidden">
+          <script>
+            (function() {
+              var cx = '018017123642423455924:jidcloovsce';
+              var gcse = document.createElement('script');
+              gcse.type = 'text/javascript';
+              gcse.async = true;
+              gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+              var s = document.getElementsByTagName('script')[0];
+              s.parentNode.insertBefore(gcse, s);
+            })();
+          </script>
+          <gcse:search></gcse:search>
+        </div>
+        <div class="gcse-fedes-search">
+          <form class="navbar-form">
+            <div class="form-group">
+              <span class="glyphicon glyphicon-search"></span>
+              <input type="search" class="form-control" name="search" placeholder="Buscar..." autocomplete="off" value="">
+            </div>
+          </form>
+        </div>
+
       </div>
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
