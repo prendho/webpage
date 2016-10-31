@@ -53,26 +53,11 @@
     width: 100%
     +only-on-small-devices
       height: 50px
-  &--bottom-border-mask
-    background-image: url('../static/curva_gris_footer.png')
-    bottom: 0
-    @media (min-width: $screen-md-max)
-      height: 13vw
-      background-position: 50% 0
-      background-size: 100%
-    @media (max-width: $screen-md-max)
-      height: 150px
-      background-position: 50% 0
-      background-size: 100%
-    @media (max-width: $screen-sm-max)
-      height: 100px
-      background-position: 15% 0
-      background-size: 115%
-    @media (max-width: $screen-xs-max)
-      background-position: 5% 0
-      background-size: 160%
-      bottom: 0
-      height: 70px
+  #curveGrayFooter
+    position: absolute
+    bottom: -13vw
+    left: 0
+    width: 100%
 
 .footer-contact-form form
   font-family: OxygenLight
