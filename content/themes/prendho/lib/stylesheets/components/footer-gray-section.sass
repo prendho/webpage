@@ -19,9 +19,12 @@
     @media (min-width: $screen-sm-min)
       top: 100px
       right: 0
-    img
+    &-image
       max-height: 25px
       margin-left: 10px
+      transition: 0.2s ease
+      &:hover
+        filter: brightness(90%)
 
   .navbar-nav
     float: none

@@ -4,9 +4,9 @@
       <img src="{{@blog.logo}}" class="img-responsive" alt="" />
     </div>
     <div class="social-networks">
-      <img src="{{asset "static/icono_face.png"}}">
-      <img src="{{asset "static/icono_rss.png"}}">
-      <img src="{{asset "static/icono_twitter.png"}}">
+      <a href="{{facebook_url}}"><img class="social-networks-image" src="{{asset "static/icono_face.png"}}"></a>
+      <a href="{{@blog.url}}/rss"><img class="social-networks-image" src="{{asset "static/icono_rss.png"}}"></a>
+      <a href="{{twitter_url}}"><img class="social-networks-image" src="{{asset "static/icono_twitter.png"}}"></a>
     </div>
 
     {{navigation}}
