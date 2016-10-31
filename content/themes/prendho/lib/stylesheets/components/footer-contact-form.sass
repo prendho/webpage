@@ -29,6 +29,7 @@
   position: relative
   &--mask
     background-color: rgba($black, .9)
+    overflow: hidden
     @media (max-width: $screen-xs-max)
       padding-top: 30px
       padding-bottom: 50px
@@ -45,17 +46,13 @@
   &--border-mask
     position: absolute
     width: 100%
-    background-size: contain
-    background-repeat: no-repeat
-  &--top-border-mask
-    top: -2px
-    height: 100px
-    background-position: 50% 0
-    background-image: url('../static/curva_gris_contactos.svg')
-    @media (min-width: $screen-md-min)
-      height: 122px
-    @media (min-width: $screen-lg-min)
-      height: 280px
+  #curveTopContact
+    position: absolute
+    top: -10px
+    left: 0
+    width: 100%
+    +only-on-small-devices
+      height: 50px
   &--bottom-border-mask
     background-image: url('../static/curva_gris_footer.png')
     bottom: 0

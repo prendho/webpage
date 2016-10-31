@@ -2,7 +2,7 @@
   {{#post}}
     <div class="footer-form-wrapper"
          style="background-image: url('{{image}}');">
-      <div class="footer-form-wrapper--border-mask footer-form-wrapper--top-border-mask"></div>
+      {{> 'curveTopContactSVG'}}
       <div class="footer-form-wrapper--mask row">
         <div class="footer-contact-form col-xs-8 col-xs-offset-2 col-sm-offset-1 col-sm-10 col-md-offset-2 col-md-8">
           <div class="col-xs-12">
@@ -15,7 +15,7 @@
 
           <div class="col-xs-12 col-sm-6">
             <form action="https://mrthomas.herokuapp.com/api/v1/notification" method="POST" role="form">
-              
+
               <div class="hidden">
                 <img src="https://mrthomas.herokuapp.com/keepalive" />
                 <script src="https://mrthomas.herokuapp.com/api/v1/recaptcha.js" async defer></script>
@@ -31,7 +31,7 @@
               <div class="text-right">
                 <input type="submit" value="enviar" class="btn btn-inverse">
               </div>
-              
+
             </form>
           </div>
         </div>
