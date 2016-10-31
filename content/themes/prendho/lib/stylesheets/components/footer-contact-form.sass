@@ -58,6 +58,11 @@
     bottom: -13vw
     left: 0
     width: 100%
+    +only-on-small-devices
+      .square-logo,
+      .letter-logo
+        transform: scale(2)
+        transform-origin: top
 
 .footer-contact-form form
   font-family: OxygenLight
