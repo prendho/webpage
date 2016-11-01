@@ -29,6 +29,7 @@
   position: relative
   &--mask
     background-color: rgba($black, .9)
+    overflow: hidden
     @media (max-width: $screen-xs-max)
       padding-top: 30px
       padding-bottom: 50px
@@ -45,37 +46,23 @@
   &--border-mask
     position: absolute
     width: 100%
-    background-size: contain
-    background-repeat: no-repeat
-  &--top-border-mask
-    top: -2px
-    height: 100px
-    background-position: 50% 0
-    background-image: url('../static/curva_gris_contactos.svg')
-    @media (min-width: $screen-md-min)
-      height: 122px
-    @media (min-width: $screen-lg-min)
-      height: 280px
-  &--bottom-border-mask
-    background-image: url('../static/curva_gris_footer.png')
-    bottom: 0
-    @media (min-width: $screen-md-max)
-      height: 13vw
-      background-position: 50% 0
-      background-size: 100%
-    @media (max-width: $screen-md-max)
-      height: 150px
-      background-position: 50% 0
-      background-size: 100%
-    @media (max-width: $screen-sm-max)
-      height: 100px
-      background-position: 15% 0
-      background-size: 115%
-    @media (max-width: $screen-xs-max)
-      background-position: 5% 0
-      background-size: 160%
-      bottom: 0
-      height: 70px
+  #curveTopContact
+    position: absolute
+    top: -10px
+    left: 0
+    width: 100%
+    +only-on-small-devices
+      height: 50px
+  #curveGrayFooter
+    position: absolute
+    bottom: -13vw
+    left: 0
+    width: 100%
+    +only-on-small-devices
+      .square-logo,
+      .letter-logo
+        transform: scale(2)
+        transform-origin: top
 
 .footer-contact-form form
   font-family: OxygenLight
