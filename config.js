@@ -14,19 +14,22 @@ config = {
     // When running Ghost in the wild, use the production environment.
     // Configure your URL and mail settings here
     production: {
-        url: 'http://my-ghost-blog.com',
+        url: 'http://produccion.prendho.com',
         mail: {},
         database: {
-            client: 'sqlite3',
-            connection: {
-                filename: path.join(__dirname, '/content/data/ghost.db')
-            },
-            debug: false
+          client: 'postgres',
+          connection: {
+            host: '127.0.0.1',
+            user: process.env.DB_PRENDHO_WEB_USER,
+            password: process.env.DB_PRENDHO_WEB_PASSWORD,
+            database: process.env.DB_PRENDHO_WEB_DATABASE
+          },
+          debug: false
         },
 
         server: {
             host: '127.0.0.1',
-            port: '2368'
+            port: process.env.PORT
         }
     },
 
