@@ -6,7 +6,7 @@
       ref  : "origin/master",
       repo : "git@github.com:prendho/webpage.git",
       path : "~/prendho-webpage",
-      "post-deploy": "export PATH=~/.nvm/versions/v0.12.14/bin:$PATH && npm install --production && pm2 restart prendho"
+      "post-deploy": "export PATH=~/.nvm/versions/v0.12.14/bin:$PATH && npm install --production && pm2 startOrRestart ~/prendho-webpage/shared/ecosystem.json"
     }
   }
 }
