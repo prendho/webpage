@@ -14,7 +14,7 @@ config = {
     // When running Ghost in the wild, use the production environment.
     // Configure your URL and mail settings here
     production: {
-        url: 'http://produccion.prendho.com',
+        url: 'http://prendho.com',
         mail: {},
         database: {
           client: 'postgres',
