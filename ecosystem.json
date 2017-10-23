@@ -6,7 +6,7 @@
       ref  : "origin/master",
       repo : "git@github.com:prendho/webpage.git",
       path : "/home/macool/prendho-webpage",
-      "post-deploy": "export PATH=~/.nvm/versions/node/v0.12.14/bin:$PATH && npm install --production && pm2 startOrRestart ~/prendho-webpage/shared/ecosystem.config.js --env production"
+      "post-deploy": "export PATH=~/.nvm/versions/node/v0.12.14/bin:$PATH && npm install --production && rm -r /home/macool/prendho-webpage/current/content/images/ && ln -s /home/macool/prendho-webpage/shared/images/ /home/macool/prendho-webpage/current/content/images && pm2 startOrRestart ~/prendho-webpage/shared/ecosystem.config.js --env production"
     }
   }
 }
